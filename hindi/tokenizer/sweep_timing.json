@@ -1,0 +1,26 @@
+{
+  "8000": {
+    "elapsed_seconds": 176.9,
+    "model": "hindi\\tokenizer\\hindi_bpe_8000.model"
+  },
+  "16000": {
+    "elapsed_seconds": 154.0,
+    "model": "hindi\\tokenizer\\hindi_bpe_16000.model"
+  },
+  "24000": {
+    "elapsed_seconds": 198.4,
+    "model": "hindi\\tokenizer\\hindi_bpe_24000.model"
+  },
+  "32000": {
+    "elapsed_seconds": 161.8,
+    "model": "hindi\\tokenizer\\hindi_bpe_32000.model"
+  },
+  "48000": {
+    "elapsed_seconds": 159.7,
+    "model": "hindi\\tokenizer\\hindi_bpe_48000.model"
+  },
+  "64000": {
+    "elapsed_seconds": 159.5,
+    "model": "hindi\\tokenizer\\hindi_bpe_64000.model"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "language": "hindi",
+  "docs_seen": {
+    "train": 989016,
+    "val": 10932,
+    "test": 10959,
+    "other": 0
+  },
+  "cache_hits": 888615,
+  "train_ids_before": 989016,
+  "train_ids_dropped": 0,
+  "train_ids_after": 989016,
+  "val_docs_with_train_match": 0,
+  "test_docs_with_train_match": 0,
+  "train_ids_dropped_via_val": 0,
+  "train_ids_dropped_via_test": 0,
+  "index_elapsed_seconds": 2409.1,
+  "query_elapsed_seconds": 92.5
+}

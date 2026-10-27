@@ -1,0 +1,26 @@
+{
+  "8000": {
+    "elapsed_seconds": 188.9,
+    "model": "assamese\\tokenizer\\assamese_bpe_8000.model"
+  },
+  "16000": {
+    "elapsed_seconds": 241.3,
+    "model": "assamese\\tokenizer\\assamese_bpe_16000.model"
+  },
+  "24000": {
+    "elapsed_seconds": 323.1,
+    "model": "assamese\\tokenizer\\assamese_bpe_24000.model"
+  },
+  "32000": {
+    "elapsed_seconds": 217.5,
+    "model": "assamese\\tokenizer\\assamese_bpe_32000.model"
+  },
+  "48000": {
+    "elapsed_seconds": 243.1,
+    "model": "assamese\\tokenizer\\assamese_bpe_48000.model"
+  },
+  "64000": {
+    "elapsed_seconds": 235.6,
+    "model": "assamese\\tokenizer\\assamese_bpe_64000.model"
+  }
+}

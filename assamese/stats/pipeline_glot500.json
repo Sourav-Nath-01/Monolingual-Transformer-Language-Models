@@ -1,0 +1,123 @@
+{
+  "language": "assamese",
+  "source": "downloaded",
+  "elapsed_seconds": 1453.6,
+  "overall": {
+    "stage": "assamese:downloaded",
+    "docs_in": 134887,
+    "docs_out": 134834,
+    "docs_removed": 53,
+    "words_in": 46107750,
+    "words_out": 45739504,
+    "word_retention": 0.9920133600099766,
+    "drops": {},
+    "corrupted_shards": []
+  },
+  "normalize_drops": {},
+  "language_filter_drops": {
+    "lang:script_gate": 6,
+    "lang:bengali": 3
+  },
+  "quality": {
+    "drops": {
+      "quality:listing_page": 43,
+      "quality:ngram_repetition": 1
+    },
+    "detail": {
+      "rejects": {
+        "listing_page": 43,
+        "ngram_repetition": 1
+      },
+      "total_rejected": 44,
+      "samples": {
+        "listing_page": [
+          {
+            "id": "as_glot500_4adc079d6ef3365d",
+            "title": "",
+            "excerpt": "‘বহুত দাম পৰিল নেকি অ’? তোৰটোৰ দাম কিমান আছিল?’ -দেউতাই সোধে।\n‘‘হেৰা কুকুৰ আছে হে ! কামুৰি দিলে বৰ ডাঙৰ কথা হ’ব দেখোন ৷’’\nলেখাটি নিয়মীয়া বাৰ্তাতো প্ৰকাশ পাইছে। ইউনিক'ড ৰূপান্তৰ কৰিলে ঈশানজ্যোতি বৰাই।\nবঢ়িয়া, এনেই মাৰ কেইছাত খালে অ’\nFeb 08, 2018 10:47 AM দেশৰ ভিতৰতে শ্ৰেষ্ঠ তেজপুৰ বিশ্ববিদ্যালয় অ"
+          },
+          {
+            "id": "as_glot500_5b8374216fc3e635",
+            "title": "",
+            "excerpt": "‘বাৰু প্ৰথমতে জ্যোতিষীজনৰ ওচৰৰ পৰা আহোঁ ব’লাচোন৷ তেওঁ যদি তোমাক সেই সুবিধা নিদিয়ে, তেন্তে সকলো নিস্ফলেই হ’ব।‘\nTagged তিনিটুকুৰা মেঘ ঘূৰাই পঠাবাঃ Leave a comment\nJune 15, 2012 November 29, 2016 গুণীন হাজৰিকা 0 Comments গুণীন হাজৰিকা, বিষ্ণুপ্ৰসাদ ৰাভা\nচন্দা কোচ্চাৰ, পৰিচালন সঞ্চালক আৰু মুখ্য কাৰ্য্য"
+          },
+          {
+            "id": "as_glot500_ca7586316f4e0a35",
+            "title": "",
+            "excerpt": "শ্ৰীমতী মহিমাময়ী (Srimati Mahimamoyee), পৰিচালকঃ- পুলক গগৈ ; সঃপঃ-কুল-অতুল (1979)\n148 গাম্বিয়া 1,825,000 July 1, 2012 এক্সপ্ৰেছন ত্ৰুটী: অবাঞ্চিত < অপাৰেটৰ% UN estimate\nই এক বৰ্দ য'ত আপুনি একা সৰু 8-বিট প্ৰচেচৰ মগজু প্ৰগ্ৰাম কৰা সকলো সজুলি আছে , ইয়াত 9 ভল্ট বা USB(5v from pc /laptop)ত চলা সুৱিধা "
+          }
+        ],
+        "ngram_repetition": [
+          {
+            "id": "as_glot500_4d529200570c439b",
+            "title": "",
+            "excerpt": "শনিবাৰে দেহাৱসান ঘটে প্ৰখ্যাত বিজ্ঞাপন ছবি নিৰ্মাতা এলিক পদমছীৰ।\nধলপুৰৰ অঘোষিত অভিভাৱক স্বৰূপ সুনীল হাজৰিকাৰ মৃত্যুত সমগ্ৰ আঞ্চলটোতে শোকৰ ছাঁ পৰে ।\nশেহতীয়াকৈ উত্তৰপ্ৰদেশৰ গাজিয়াবাদত গঢ়ি উঠিছে দেশৰ প্ৰথমখন ৰাজনীতি শিক্ষাৰ প্ৰতিষ্ঠান।\nখ্ৰীষ্টান ধৰ্মীয় পৰম্পৰাৰে শেষকৃত্য সম্পন্ন কৰা হ’ব নেতাগৰাকীৰ।"
+          }
+        ]
+      }
+    }
+  },
+  "nonlang": {
+    "drops": {},
+    "detail": {
+      "counts": {
+        "words_removed": 289216,
+        "sentences_dropped": 2455
+      },
+      "distinct_tokens_removed": 79003,
+      "total_tokens_removed": 303169,
+      "top_removed": {
+        "Home": 16756,
+        "com": 2691,
+        "the": 2672,
+        "and": 2464,
+        "The": 1743,
+        "News": 1595,
+        "Assamese": 1544,
+        "Next": 1360,
+        "PHONE": 1234,
+        "Previous": 1023,
+        "for": 966,
+        "VIDEO": 887,
+        "NRC": 879,
+        "India": 871,
+        "Assam": 856,
+        "INDIA": 854,
+        "National": 592,
+        "Indian": 504,
+        "Prag": 464,
+        "Comments": 462,
+        "World": 461,
+        "February": 460,
+        "Home/": 439,
+        "March": 431,
+        "BY-SA": 404,
+        "DESK": 391,
+        "August": 380,
+        "NRCৰ": 368,
+        "DNA": 368,
+        "assam": 356,
+        "International": 343,
+        "Evolution": 335,
+        "News18": 335,
+        "are": 314,
+        "news": 313,
+        "January": 309,
+        "NEWS": 309,
+        "CAA": 306,
+        "photogallery": 303,
+        "Institute": 301,
+        "with": 301,
+        "Guwahati/": 293,
+        "Desk": 292,
+        "UTC": 286,
+        "disabled": 284,
+        "Posted": 280,
+        "{\\displaystyle": 275,
+        "One": 271,
+        "New": 267,
+        "September": 266
+      }
+    }
+  }
+}

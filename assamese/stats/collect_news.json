@@ -1,0 +1,37 @@
+{
+  "asomiyapratidin": {
+    "urls_from_sitemap": 88371,
+    "already_seen": 33893,
+    "robots_blocked": 0,
+    "fetch_failed": 7,
+    "no_extract": 0,
+    "too_short": 5222,
+    "wrong_script": 4,
+    "emitted": 49244,
+    "words": 11184424
+  },
+  "dainikjanambhumi": {
+    "urls_from_sitemap": 0,
+    "already_seen": 0,
+    "robots_blocked": 0,
+    "fetch_failed": 0,
+    "no_extract": 0,
+    "too_short": 0,
+    "wrong_script": 0,
+    "emitted": 0,
+    "words": 0
+  },
+  "niyomiyabarta": {
+    "urls_from_sitemap": 7,
+    "already_seen": 3,
+    "robots_blocked": 0,
+    "fetch_failed": 0,
+    "no_extract": 0,
+    "too_short": 2,
+    "wrong_script": 2,
+    "emitted": 0,
+    "words": 0
+  },
+  "_total_words": 11184424,
+  "_total_docs": 49244
+}

@@ -1,0 +1,172 @@
+{
+  "language": "assamese",
+  "source": "downloaded",
+  "elapsed_seconds": 1101.3,
+  "overall": {
+    "stage": "assamese:downloaded",
+    "docs_in": 60715,
+    "docs_out": 50650,
+    "docs_removed": 10065,
+    "words_in": 48692932,
+    "words_out": 41527531,
+    "word_retention": 0.8528451521465169,
+    "drops": {},
+    "corrupted_shards": []
+  },
+  "normalize_drops": {},
+  "language_filter_drops": {
+    "lang:script_gate": 6667,
+    "lang:bengali": 9,
+    "lang:short_text_function_words": 1
+  },
+  "quality": {
+    "drops": {
+      "quality:listing_page": 3176,
+      "quality:too_short": 203,
+      "quality:symbol_heavy": 5,
+      "quality:low_alpha_ratio": 4
+    },
+    "detail": {
+      "rejects": {
+        "listing_page": 3176,
+        "too_short": 203,
+        "symbol_heavy": 5,
+        "low_alpha_ratio": 4
+      },
+      "total_rejected": 3388,
+      "samples": {
+        "listing_page": [
+          {
+            "id": "as_madlad_as_clean_872e04062298312b",
+            "title": "",
+            "excerpt": "guwahati-independent-day-celebration-issue-tvraju– News18 Assam\\nখানাপাৰাত এতিয়া কোভিড চিকিৎসালয়, এইবাৰ ক'ত উদযাপিত হ'ব স্বাধীনতা দিৱস?\\nমনোৰম প্ৰকৃতিৰ বুকুত ল’ব বিচাৰে নেকি ৰোমাঞ্চকৰ অভিজ্ঞতা? তেন্তে বগামাটিলৈ আহক\\nবান–খহনীয়াই থানবান কৰি পেলালে আপোন ঘৰখন, মুকলি আকাশৰ তলত হাজাৰ হাজাৰ গৃহহীন লোক\\n"
+          },
+          {
+            "id": "as_madlad_as_clean_e91a3192ab2fba0c",
+            "title": "",
+            "excerpt": "বাওঁফালে মুখ কৰি শুলে হোৱা এই7টা আচৰিত লাভৰ বিষয়ে আপুনি জানেনে ? Benefits of sleeping on left side - Dimpu Baruah\\nHome HEALTH TIPS বাওঁফালে মুখ কৰি শুলে হোৱা এই7টা আচৰিত লাভৰ বিষয়ে আপুনি জানেনে ? Benefits of sleeping on left side\\nবাওঁফালে মুখ কৰি শুলে হোৱা এই7টা আচৰিত লাভৰ বিষয়ে আপুনি জানেনে ? "
+          },
+          {
+            "id": "as_madlad_as_clean_515bf903faf22f15",
+            "title": "",
+            "excerpt": "এক মিনিটৰ গল্প - অসমীয়াৰ সুখ-দুখ\\nHome Unlabelled এক মিনিটৰ গল্প\\nxukhdukh.com September 25, 2013\\n- মেৰিলীন দত্ত\\nৰামধনে পেটটোত খামুচি ধৰিলে ! আঃ কি অসহ্যকৰ বিষ ! যোৱা তিনিদিন ধৰি সি একো খোৱা নাই ! সি কাম কৰা চাহ দোকানখনত গিলাচ এটা ভঙাৰ বাবে তাক কামৰ পৰা খেদি পঠিয়ালে ! আশ্ৰয়হীন হৈ পৰিল সি ! অশেষ"
+          }
+        ],
+        "too_short": [
+          {
+            "id": "as_madlad_as_clean_33a20d00ba7d24b7",
+            "title": "",
+            "excerpt": ""
+          },
+          {
+            "id": "as_madlad_as_clean_64e60a5355289e2e",
+            "title": "",
+            "excerpt": ""
+          },
+          {
+            "id": "as_madlad_as_clean_88fc0ec93363b82c",
+            "title": "",
+            "excerpt": ""
+          }
+        ],
+        "symbol_heavy": [
+          {
+            "id": "as_madlad_as_noisy_2a03041e0296ac29",
+            "title": "",
+            "excerpt": "সদস্য:SlowPhoton/test - অসমীয়া ৱিকিপিডিয়া\\nমই ভাত খালো৷ তুমি খালানে? খোৱা নাই যদি খাবা৷ মই ভাত খালো৷ তুমি খালানে? খোৱা নাই যদি খাবা৷ # এক্সট্ৰা স্পেচ দিছে, ডবল স্পেচ গুচুওৱা নাই মই ভাত খালো৷তুমি খালানে?খোৱা নাই যদি খাবা৷ # এইটোত ঠিকে কাম কৰিছে মই ভাত খালো৷ তুমি খালানে? খোৱা নাই যদি খাবা৷ # এইটোত ক"
+          },
+          {
+            "id": "as_madlad_as_noisy_35d71406401eefd4",
+            "title": "",
+            "excerpt": "��������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������� ��������������������������������������������������������"
+          },
+          {
+            "id": "as_madlad_as_noisy_7e07deb278913277",
+            "title": "",
+            "excerpt": "দ্বিঘাত সমীকৰণ (Quadratic Equations) NCERT Solution Maths X [ examples ] - Gorajan Goodluck Tutor Centre\\nHome Class 10 দশম শ্ৰেণী সাধাৰণ গণিত দ্বিঘাত সমীকৰণ (Quadratic Equations) NCERT Solution Maths X [ examples ]\\nদ্বিঘাত সমীকৰণ (Quadratic Equations) NCERT Solution Maths X [ examples ]\\nAdmin Cla"
+          }
+        ],
+        "low_alpha_ratio": [
+          {
+            "id": "as_madlad_as_noisy_2ed65cc262dbee83",
+            "title": "",
+            "excerpt": "Статистика Википедии - Tables - Ассамский\\nСтатистика Википедии Ассамский\\nУвеличение Ассамский Абхазский Йоруба somali Лимбуржский piedmontese Санскрит haitian upper sorbian Шотландский Гэльский wu Синдхи hakka ossetic min dong belarusian (taraÅ¡kievic) Англо-саксонский Пушту zazaki north frisian Т"
+          },
+          {
+            "id": "as_madlad_as_noisy_21ce07c1a8861cf7",
+            "title": "",
+            "excerpt": "Stadegoù Wikipedia - Tables - Asameg\\nStadegoù Wikipedia Asameg\\nZoum Asameg Ilokano Chuvash Gouezeleg Skos Sanskriteg Yorouba Min Dong Bihari Wu Hakka Sindhi Upper Sorbian Sakha Minangkabau North Frisian Walloneg Zazaki Maithili Pachto Neapolitan Volapük Banyumasan Lower Sorbian Ossetic Eastern Mar"
+          },
+          {
+            "id": "as_madlad_as_noisy_49aaba2be49ec782",
+            "title": "",
+            "excerpt": "Oriya മലയാളം ગુજરાતી English Latest Mandi Prices For more queries on Prices and Arrivals All India Level Price Range (Rs./Quintal) on 23/3/2017 বজাৰসমূহৰ ৰিপোৰ্ট : 1428(till 8:00 PM)\\nNR:ৰিপোৰ্ট নকৰা *-MSP\\nডালডা ডালডা 7400 5750 নাৰিকল তেল কোপৰা তেল 12150 12000 সৰিয়হ তেল 11500 9150 আতা গেহু 2750 20"
+          }
+        ]
+      }
+    }
+  },
+  "nonlang": {
+    "drops": {},
+    "detail": {
+      "counts": {
+        "words_removed": 628802,
+        "sentences_dropped": 22027
+      },
+      "distinct_tokens_removed": 169480,
+      "total_tokens_removed": 850507,
+      "top_removed": {
+        "the": 15377,
+        "and": 10941,
+        "Assamese": 7713,
+        "News": 6752,
+        "News18": 6376,
+        "The": 5568,
+        "Assam": 5254,
+        "for": 4424,
+        "published": 3213,
+        "Updated": 3123,
+        "Class": 2887,
+        "India": 2540,
+        "you": 2342,
+        "that": 2069,
+        "are": 1878,
+        "with": 1690,
+        "live": 1647,
+        "can": 1597,
+        "from": 1593,
+        "Science": 1566,
+        "not": 1479,
+        "Chapter": 1425,
+        "xukhdukh.com": 1383,
+        "Indian": 1321,
+        "Paper": 1303,
+        "photogallery": 1288,
+        "assam\\nHome": 1284,
+        "Asomiya": 1210,
+        "Pratham": 1190,
+        "have": 1168,
+        "this": 1160,
+        "ISBN": 1140,
+        "RECENT": 1131,
+        "Pratidin": 1130,
+        "Highest": 1106,
+        "Circulated": 1101,
+        "New": 1086,
+        "Live": 1073,
+        "IST": 1064,
+        "ARTICLE": 996,
+        "was": 993,
+        "National": 947,
+        "History": 946,
+        "will": 938,
+        "June": 938,
+        "May": 937,
+        "Today": 936,
+        "Price": 919,
+        "your": 918,
+        "April": 900
+      }
+    }
+  }
+}

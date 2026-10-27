@@ -1,0 +1,11 @@
+{
+  "words": 48692932,
+  "docs": 60715,
+  "by_split": {
+    "as_clean": 27928948,
+    "as_noisy": 20763984
+  },
+  "too_short": 45,
+  "elapsed_seconds": 106.0,
+  "word_cap": 999000000
+}

@@ -1,0 +1,20 @@
+# Normalise line endings to LF in the repository. Written on Windows, graded
+# on Linux — without this, every file lands with CRLF and byte counts in the
+# dataset statistics disagree with the corpus on Drive.
+* text=auto eol=lf
+
+# Binary artifacts: never line-ending-converted, never diffed as text.
+*.model binary
+*.zst   binary
+*.gz    binary
+*.bz2   binary
+*.png   binary
+*.jpg   binary
+*.pdf   binary
+
+# Vocabulary and split manifests are text, but diffs are noise in review.
+*.vocab -diff
+*.ids   -diff
+
+# Notebooks: keep diffs readable-ish
+*.ipynb -diff

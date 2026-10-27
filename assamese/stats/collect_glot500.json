@@ -1,0 +1,19 @@
+{
+  "words": 46107750,
+  "docs": 134887,
+  "rows_seen": 1876644,
+  "rows_kept_by_tag": {
+    "Indiccorp": 28616300,
+    "Oscar22": 6839936,
+    "Wikipedia": 3592740,
+    "mtdata": 2081045,
+    "CC100": 2816381,
+    "Earthlings": 517719,
+    "Leipzig_wikipedia": 1076790,
+    "Leipzig_community": 559911,
+    "wiki": 6928
+  },
+  "rows_skipped": 2886,
+  "elapsed_seconds": 174.8,
+  "word_cap": 999000000
+}

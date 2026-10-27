@@ -1,0 +1,19 @@
+{
+  "pages_seen": 71372,
+  "redirects": 26668,
+  "wrong_namespace": 19579,
+  "machine_translated": 264,
+  "empty_after_clean": 797,
+  "too_short": 292,
+  "emitted": 23772,
+  "words": 8490887,
+  "translation_markers": {
+    "template:\u0985\u09a8\u09c1\u09ac\u09be\u09a6": 73,
+    "template:rough translation": 66,
+    "comment": 57,
+    "template:cleanup-translation": 30,
+    "template:translation": 28,
+    "template:machine translation": 13,
+    "template:expand language": 1
+  }
+}

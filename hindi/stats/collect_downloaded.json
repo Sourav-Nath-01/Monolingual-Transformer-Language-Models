@@ -1,0 +1,10 @@
+{
+  "words": 400000030,
+  "docs": 931608,
+  "by_config": {
+    "verified": 400000030
+  },
+  "too_short": 2012,
+  "elapsed_seconds": 509.5,
+  "word_cap": 400000000
+}

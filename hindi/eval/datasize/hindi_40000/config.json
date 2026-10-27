@@ -1,0 +1,33 @@
+{
+  "model": {
+    "vocab_size": 16000,
+    "block_size": 512,
+    "n_layer": 10,
+    "n_head": 6,
+    "n_embd": 384,
+    "d_ff": 1536,
+    "dropout": 0.1,
+    "tie_embeddings": true,
+    "use_pos_emb": true
+  },
+  "finetune": {
+    "language": "hindi",
+    "pretrained": "/kaggle/input/datasets/souravnath01/lma-pretrained/phase3_pretrained/hindi/best.pt",
+    "data_dir": "/kaggle/working/subsets/hindi_40000",
+    "out_dir": "/kaggle/working/ablation/hindi_40000",
+    "epochs": 3,
+    "batch_size": 32,
+    "learning_rate": 5e-05,
+    "min_lr": 5e-06,
+    "warmup_frac": 0.05,
+    "weight_decay": 0.1,
+    "beta1": 0.9,
+    "beta2": 0.95,
+    "grad_clip": 1.0,
+    "eval_every": 250,
+    "eval_batches": 40,
+    "checkpoint_every": 250,
+    "log_every": 50,
+    "seed": 3407
+  }
+}

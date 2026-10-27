@@ -1,0 +1,22 @@
+{
+  "language": "hindi",
+  "docs_in": 1039530,
+  "words_in": 476891399,
+  "exact_duplicates_removed": 17046,
+  "paragraph_dedup": {
+    "distinct_paragraphs_seen": 1813851,
+    "boilerplate_paragraphs": 97,
+    "paragraphs_dropped": 1552,
+    "documents_emptied": 0
+  },
+  "near_duplicate": {
+    "documents_hashed": 1022244,
+    "duplicate_ids_skipped": 240,
+    "clusters_found": 4950,
+    "documents_dropped": 11337,
+    "cache_hits": 899466
+  },
+  "docs_out": 1010907,
+  "words_out": 464048535,
+  "word_retention": 0.9731
+}

@@ -1,0 +1,81 @@
+{
+  "measurements": [
+    {
+      "model": "assamese\\tokenizer\\assamese_bpe_8000.model",
+      "vocab_size": 8000,
+      "fertility_tokens_per_word": 1.7688832987565646,
+      "bytes_per_token": 9.60254899884894,
+      "byte_fallback_rate": 0.005451306641335001,
+      "distinct_tokens_used": 7888,
+      "singleton_token_share": 0.0002535496957403651,
+      "held_out_words": 5270398,
+      "held_out_tokens": 9322719
+    },
+    {
+      "model": "assamese\\tokenizer\\assamese_bpe_16000.model",
+      "vocab_size": 16000,
+      "fertility_tokens_per_word": 1.5751825573704301,
+      "bytes_per_token": 10.78337775521785,
+      "byte_fallback_rate": 0.006121655695804267,
+      "distinct_tokens_used": 15883,
+      "singleton_token_share": 0.00044072278536800354,
+      "held_out_words": 5270398,
+      "held_out_tokens": 8301839
+    },
+    {
+      "model": "assamese\\tokenizer\\assamese_bpe_24000.model",
+      "vocab_size": 24000,
+      "fertility_tokens_per_word": 1.4913460046091396,
+      "bytes_per_token": 11.389569219389294,
+      "byte_fallback_rate": 0.006465786775474311,
+      "distinct_tokens_used": 23870,
+      "singleton_token_share": 0.0011311269375785505,
+      "held_out_words": 5270398,
+      "held_out_tokens": 7859987
+    },
+    {
+      "model": "assamese\\tokenizer\\assamese_bpe_32000.model",
+      "vocab_size": 32000,
+      "fertility_tokens_per_word": 1.4436661140202316,
+      "bytes_per_token": 11.76573196849131,
+      "byte_fallback_rate": 0.0066793320010856,
+      "distinct_tokens_used": 31851,
+      "singleton_token_share": 0.0017267903676493673,
+      "held_out_words": 5270398,
+      "held_out_tokens": 7608695
+    },
+    {
+      "model": "assamese\\tokenizer\\assamese_bpe_48000.model",
+      "vocab_size": 48000,
+      "fertility_tokens_per_word": 1.3897240777641462,
+      "bytes_per_token": 12.222417975863959,
+      "byte_fallback_rate": 0.006938589773713857,
+      "distinct_tokens_used": 47767,
+      "singleton_token_share": 0.0033705277702179327,
+      "held_out_words": 5270398,
+      "held_out_tokens": 7324399
+    },
+    {
+      "model": "assamese\\tokenizer\\assamese_bpe_64000.model",
+      "vocab_size": 64000,
+      "fertility_tokens_per_word": 1.3590613080833744,
+      "bytes_per_token": 12.498176828762631,
+      "byte_fallback_rate": 0.0070951363392553245,
+      "distinct_tokens_used": 63573,
+      "singleton_token_share": 0.006417818885375867,
+      "held_out_words": 5270398,
+      "held_out_tokens": 7162794
+    }
+  ],
+  "selected": {
+    "model": "assamese\\tokenizer\\assamese_bpe_64000.model",
+    "vocab_size": 64000,
+    "fertility_tokens_per_word": 1.3590613080833744,
+    "bytes_per_token": 12.498176828762631,
+    "byte_fallback_rate": 0.0070951363392553245,
+    "distinct_tokens_used": 63573,
+    "singleton_token_share": 0.006417818885375867,
+    "held_out_words": 5270398,
+    "held_out_tokens": 7162794
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "measurements": [
+    {
+      "model": "hindi\\tokenizer\\hindi_bpe_8000.model",
+      "vocab_size": 8000,
+      "fertility_tokens_per_word": 1.431759003597304,
+      "bytes_per_token": 9.19519873125792,
+      "byte_fallback_rate": 0.003483495879360659,
+      "distinct_tokens_used": 7898,
+      "singleton_token_share": 0.001392757660167131,
+      "held_out_words": 5441575,
+      "held_out_tokens": 7791024
+    },
+    {
+      "model": "hindi\\tokenizer\\hindi_bpe_16000.model",
+      "vocab_size": 16000,
+      "fertility_tokens_per_word": 1.3134960006983272,
+      "bytes_per_token": 10.023105183682041,
+      "byte_fallback_rate": 0.003797138770591678,
+      "distinct_tokens_used": 15870,
+      "singleton_token_share": 0.0029615626969124132,
+      "held_out_words": 5441575,
+      "held_out_tokens": 7147487
+    },
+    {
+      "model": "hindi\\tokenizer\\hindi_bpe_24000.model",
+      "vocab_size": 24000,
+      "fertility_tokens_per_word": 1.2662394619204917,
+      "bytes_per_token": 10.397171284945859,
+      "byte_fallback_rate": 0.003938849435085686,
+      "distinct_tokens_used": 23783,
+      "singleton_token_share": 0.005676323424294664,
+      "held_out_words": 5441575,
+      "held_out_tokens": 6890337
+    },
+    {
+      "model": "hindi\\tokenizer\\hindi_bpe_32000.model",
+      "vocab_size": 32000,
+      "fertility_tokens_per_word": 1.2401714577121514,
+      "bytes_per_token": 10.6157164732949,
+      "byte_fallback_rate": 0.004021642780321393,
+      "distinct_tokens_used": 31637,
+      "singleton_token_share": 0.008407876853051806,
+      "held_out_words": 5441575,
+      "held_out_tokens": 6748486
+    },
+    {
+      "model": "hindi\\tokenizer\\hindi_bpe_48000.model",
+      "vocab_size": 48000,
+      "fertility_tokens_per_word": 1.2121099130306943,
+      "bytes_per_token": 10.86148082101499,
+      "byte_fallback_rate": 0.004114747792795613,
+      "distinct_tokens_used": 47074,
+      "singleton_token_share": 0.020202234779283682,
+      "held_out_words": 5441575,
+      "held_out_tokens": 6595787
+    },
+    {
+      "model": "hindi\\tokenizer\\hindi_bpe_64000.model",
+      "vocab_size": 64000,
+      "fertility_tokens_per_word": 1.1967845706436095,
+      "bytes_per_token": 11.000566765549928,
+      "byte_fallback_rate": 0.004167438912240093,
+      "distinct_tokens_used": 61634,
+      "singleton_token_share": 0.04510497452704676,
+      "held_out_words": 5441575,
+      "held_out_tokens": 6512393
+    }
+  ],
+  "selected": {
+    "model": "hindi\\tokenizer\\hindi_bpe_64000.model",
+    "vocab_size": 64000,
+    "fertility_tokens_per_word": 1.1967845706436095,
+    "bytes_per_token": 11.000566765549928,
+    "byte_fallback_rate": 0.004167438912240093,
+    "distinct_tokens_used": 61634,
+    "singleton_token_share": 0.04510497452704676,
+    "held_out_words": 5441575,
+    "held_out_tokens": 6512393
+  }
+}

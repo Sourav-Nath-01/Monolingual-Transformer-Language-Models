@@ -1,0 +1,20 @@
+{
+  "pages_seen": 327056,
+  "redirects": 80048,
+  "wrong_namespace": 72402,
+  "machine_translated": 3525,
+  "empty_after_clean": 3215,
+  "too_short": 65086,
+  "emitted": 102780,
+  "words": 40415813,
+  "translation_markers": {
+    "comment": 2326,
+    "template:\u0916\u093c\u0930\u093e\u092c \u0905\u0928\u0941\u0935\u093e\u0926": 1177,
+    "template:\u0916\u0930\u093e\u092c \u0905\u0928\u0941\u0935\u093e\u0926": 403,
+    "template:\u0905\u0928\u0941\u0935\u093e\u0926": 231,
+    "template:translation": 103,
+    "template:rough translation": 5,
+    "template:expand language": 3,
+    "template:cleanup translation": 3
+  }
+}

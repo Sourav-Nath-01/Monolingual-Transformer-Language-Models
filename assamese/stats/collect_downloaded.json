@@ -1,0 +1,11 @@
+{
+  "words": 157463973,
+  "docs": 347185,
+  "by_config": {
+    "verified": 149181479,
+    "unverified": 8282494
+  },
+  "too_short": 2242,
+  "elapsed_seconds": 488.6,
+  "word_cap": 231500000
+}

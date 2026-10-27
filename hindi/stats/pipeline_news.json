@@ -1,0 +1,120 @@
+{
+  "language": "hindi",
+  "source": "news",
+  "elapsed_seconds": 37.7,
+  "overall": {
+    "stage": "hindi:news",
+    "docs_in": 4971,
+    "docs_out": 4949,
+    "docs_removed": 22,
+    "words_in": 1709036,
+    "words_out": 1664899,
+    "word_retention": 0.9741743298561294,
+    "drops": {},
+    "corrupted_shards": []
+  },
+  "normalize_drops": {},
+  "language_filter_drops": {
+    "lang:script_gate": 13
+  },
+  "quality": {
+    "drops": {
+      "quality:ngram_repetition": 2,
+      "quality:mostly_short_lines": 1
+    },
+    "detail": {
+      "rejects": {
+        "ngram_repetition": 2,
+        "mostly_short_lines": 1
+      },
+      "total_rejected": 3,
+      "samples": {
+        "ngram_repetition": [
+          {
+            "id": "hi_news_6cd8378ede79d20d",
+            "title": "",
+            "excerpt": "फसल बचाने वाले जवानों को किया सम्मानित\nहिन्दुस्तान, भदोही\nफसल बचाने वाले जवानों को किया सम्मानित क क क क क क क क क क क कक क क क क क क क क क क\nभदोही, संवाददाता। किसान की फसल को आग लगने से बचाने में मदद करने वाली पुलिस टीम को एसपी ने सम्मानित किया। जिला मुख्यालय स्थित सरपतहां कार्यालय में अभिनव त्यागी"
+          },
+          {
+            "id": "hi_news_f714f854b3f29af7",
+            "title": "",
+            "excerpt": "203 वाहनों का चालान, 1.93 लाख वसूले\n203 वाहनों का चालान, 1.93 लाख वसूले क क क क क क क क कक क क क क क क क क क क क\nभदोही, संवाददाता। जिले की पुलिस ने एक वारंटी को गिरफ्तार किया। इसके साथ ही छह लोगों को पुलिस ने शांति भंग की आशंका में पाबंद किया। उधर, यातायात पुलिस ने नियमों के उल्लंघन के आरोपों में 17"
+          }
+        ],
+        "mostly_short_lines": [
+          {
+            "id": "hi_news_bfdaaffe7484a95c",
+            "title": "",
+            "excerpt": "JAC 8th Result : झारखंड 8वीं रिजल्ट में 93.31 प्रतिशत पास, देखें किस जिले में कितने पास\nझारखंड एकेडमिक काउंसिल (जैक) ने गुरुवार को आठवीं बोर्ड परीक्षा का परिणाम घोषित कर दिया। इसमें 93.31 प्रतिशत परीक्षार्थी सफल घोषित किए गए हैं। परीक्षा बीते दो मार्च को आयोजित की गई थी, जिसमें राज्यभर से कुल 5,16,1"
+          }
+        ]
+      }
+    }
+  },
+  "nonlang": {
+    "drops": {
+      "nonlang:document_dropped": 6
+    },
+    "detail": {
+      "counts": {
+        "words_removed": 32063,
+        "sentences_dropped": 109,
+        "documents_dropped": 6
+      },
+      "distinct_tokens_removed": 1636,
+      "total_tokens_removed": 33144,
+      "top_removed": {
+        "Hindustan": 8488,
+        "News": 4511,
+        "Hindi": 4342,
+        "Live": 4325,
+        "App": 4317,
+        "Bihar": 135,
+        "Patna": 134,
+        "Muzaffarpur": 133,
+        "Bhagalpur": 133,
+        "LIVE": 115,
+        "IIMC": 102,
+        "Kumar": 88,
+        "MI": 86,
+        "PBKS": 81,
+        "VS": 67,
+        "Score": 65,
+        "Result": 56,
+        "UP": 55,
+        "of": 49,
+        "Nari": 49,
+        "Shakti": 49,
+        "Vandan": 49,
+        "Adhiniyam": 48,
+        "Today": 44,
+        "l": 41,
+        "Singh": 41,
+        "Expertise": 40,
+        "FY2026": 40,
+        "Sharma": 38,
+        "Horoscope": 36,
+        "Maruti": 35,
+        "Suzuki": 35,
+        "April": 34,
+        "FY2025": 33,
+        "Ultra": 32,
+        "Board": 32,
+        "Bangla": 31,
+        "Bhoot": 30,
+        "PHONE": 29,
+        "BPSC": 28,
+        "vs": 27,
+        "Wi-Fi": 27,
+        "Aaj": 26,
+        "IPL": 25,
+        "5G": 24,
+        "Himanshu": 23,
+        "jacresults.com": 21,
+        "BCA": 21,
+        "AC": 21,
+        "Nova": 21
+      }
+    }
+  }
+}

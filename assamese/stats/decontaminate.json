@@ -1,0 +1,19 @@
+{
+  "language": "assamese",
+  "docs_seen": {
+    "train": 824317,
+    "val": 10984,
+    "test": 11047,
+    "other": 0
+  },
+  "cache_hits": 754504,
+  "train_ids_before": 824317,
+  "train_ids_dropped": 0,
+  "train_ids_after": 824317,
+  "val_docs_with_train_match": 0,
+  "test_docs_with_train_match": 0,
+  "train_ids_dropped_via_val": 0,
+  "train_ids_dropped_via_test": 0,
+  "index_elapsed_seconds": 1341.2,
+  "query_elapsed_seconds": 53.1
+}

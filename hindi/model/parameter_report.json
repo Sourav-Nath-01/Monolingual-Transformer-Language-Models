@@ -1,0 +1,20 @@
+{
+  "total_trainable": 24086016,
+  "token_embedding": 6144000,
+  "positional_embedding": 196608,
+  "transformer_blocks": 17744640,
+  "final_layernorm": 768,
+  "output_head": 0,
+  "embeddings_tied": true,
+  "embedding_share_of_total": 0.2551,
+  "config": {
+    "vocab_size": 16000,
+    "block_size": 512,
+    "n_layer": 10,
+    "n_head": 6,
+    "n_embd": 384,
+    "d_ff": 1536,
+    "dropout": 0.1,
+    "tie_embeddings": true
+  }
+}

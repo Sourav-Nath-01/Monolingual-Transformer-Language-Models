@@ -1,0 +1,158 @@
+{
+  "pretrained": {
+    "language": "assamese",
+    "split": "val",
+    "checkpoint": "C:/Users/sourav/Desktop/LMA_project/phase3_finetuned/assamese/best.pt",
+    "checkpoint_step": 3750,
+    "examples": 2000,
+    "exact_match": 0.8855,
+    "prefix_match": 0.8855,
+    "chance_baseline": 0.44775,
+    "by_task": {
+      "compare2": {
+        "exact_match": 0.8904458598726115,
+        "prefix_match": 0.8904458598726115,
+        "n": 785,
+        "chance": 0.5
+      },
+      "order3": {
+        "exact_match": 0.7719298245614035,
+        "prefix_match": 0.7719298245614035,
+        "n": 627,
+        "chance": 0.3333333333333333
+      },
+      "transitive": {
+        "exact_match": 1.0,
+        "prefix_match": 1.0,
+        "n": 588,
+        "chance": 0.5
+      }
+    },
+    "by_template": {
+      "as_c2_a": {
+        "exact_match": 0.889763779527559,
+        "n": 381
+      },
+      "as_c2_b": {
+        "exact_match": 0.8910891089108911,
+        "n": 404
+      },
+      "as_o3_a": {
+        "exact_match": 0.7817589576547231,
+        "n": 307
+      },
+      "as_o3_b": {
+        "exact_match": 0.7625,
+        "n": 320
+      },
+      "as_tr_a": {
+        "exact_match": 1.0,
+        "n": 297
+      },
+      "as_tr_b": {
+        "exact_match": 1.0,
+        "n": 291
+      }
+    },
+    "successes": [
+      {
+        "id": "assamese-val-000004",
+        "task": "compare2",
+        "prompt": "জগদীশৰ বয়স 59 বছৰ। মাধৱৰ বয়স 40 বছৰ। দুয়োৰে ভিতৰত কাৰ বয়স কম?",
+        "gold": "মাধৱ",
+        "pred": "মাধৱ",
+        "generated": "40 বছৰ, গতিকে মাধৱ"
+      },
+      {
+        "id": "assamese-val-000170",
+        "task": "compare2",
+        "prompt": "জিতেনৰ বয়স 66 বছৰ। বিকাশৰ বয়স 25 বছৰ। দুয়োৰে ভিতৰত কাৰ বয়স কম?",
+        "gold": "বিকাশ",
+        "pred": "বিকাশ",
+        "generated": "25 বছৰ, গতিকে বিকাশ"
+      },
+      {
+        "id": "assamese-val-000543",
+        "task": "compare2",
+        "prompt": "মাধৱৰ বয়স 33 বছৰ। কমলৰ বয়স 38 বছৰ। দুয়োৰে ভিতৰত কাৰ বয়স বেছি?",
+        "gold": "কমল",
+        "pred": "কমল",
+        "generated": "38 বছৰ, গতিকে কমল"
+      },
+      {
+        "id": "assamese-val-000989",
+        "task": "compare2",
+        "prompt": "হীৰেনৰ বয়স 48 বছৰ। ৰামৰ বয়স 30 বছৰ। দুয়োৰে ভিতৰত কাৰ বয়স কম?",
+        "gold": "ৰাম",
+        "pred": "ৰাম",
+        "generated": "30 বছৰ, গতিকে ৰাম"
+      },
+      {
+        "id": "assamese-val-001354",
+        "task": "compare2",
+        "prompt": "বসন্তৰ বয়স 46 বছৰ। প্ৰকাশৰ বয়স 7 বছৰ। দুয়োৰে ভিতৰত কাৰ বয়স কম?",
+        "gold": "প্ৰকাশ",
+        "pred": "প্ৰকাশ",
+        "generated": "7 বছৰ, গতিকে প্ৰকাশ"
+      },
+      {
+        "id": "assamese-val-001606",
+        "task": "compare2",
+        "prompt": "ধ্ৰুৱৰ বয়স 58 বছৰ। ৰামৰ বয়স 64 বছৰ। দুয়োৰে ভিতৰত কাৰ বয়স বেছি?",
+        "gold": "ৰাম",
+        "pred": "ৰাম",
+        "generated": "64 বছৰ, গতিকে ৰাম"
+      }
+    ],
+    "failures": [
+      {
+        "id": "assamese-val-000836",
+        "task": "compare2",
+        "prompt": "বিকাশৰ বয়স 33 বছৰ। ওঁকাৰৰ বয়স 39 বছৰ। দুয়োৰে ভিতৰত কাৰ বয়স কম?",
+        "gold": "বিকাশ",
+        "pred": "ওঁকাৰ",
+        "generated": "33 বছৰ, গতিকে ওঁকাৰ"
+      },
+      {
+        "id": "assamese-val-000968",
+        "task": "compare2",
+        "prompt": "ৰাজেশৰ বয়স 37 বছৰ। বিকাশৰ বয়স 27 বছৰ। দুয়োৰে ভিতৰত কাৰ বয়স বেছি?",
+        "gold": "ৰাজেশ",
+        "pred": "বিকাশ",
+        "generated": "37 বছৰ, গতিকে বিকাশ"
+      },
+      {
+        "id": "assamese-val-001916",
+        "task": "compare2",
+        "prompt": "বিকাশৰ বয়স 72 বছৰ। ৰূপমৰ বয়স 81 বছৰ। দুয়োৰে ভিতৰত কাৰ বয়স কম?",
+        "gold": "বিকাশ",
+        "pred": "ৰূপম",
+        "generated": "72 বছৰ, গতিকে ৰূপম"
+      },
+      {
+        "id": "assamese-val-000066",
+        "task": "compare2",
+        "prompt": "নৰেনৰ বয়স 10 বছৰ আৰু ৰামৰ বয়স 14 বছৰ। কোৱাচোন, কাৰ বয়স বেছি?",
+        "gold": "ৰাম",
+        "pred": "নৰেন",
+        "generated": "14 বছৰ, গতিকে নৰেন"
+      },
+      {
+        "id": "assamese-val-000079",
+        "task": "compare2",
+        "prompt": "ধ্ৰুৱৰ বয়স 29 বছৰ। ধীৰজৰ বয়স 34 বছৰ। দুয়োৰে ভিতৰত কাৰ বয়স বেছি?",
+        "gold": "ধীৰজ",
+        "pred": "ধ্ৰুৱ",
+        "generated": "34 বছৰ, গতিকে ধ্ৰুৱ"
+      },
+      {
+        "id": "assamese-val-000640",
+        "task": "compare2",
+        "prompt": "হীৰেনৰ বয়স 44 বছৰ। সঞ্জয়ৰ বয়স 49 বছৰ। দুয়োৰে ভিতৰত কাৰ বয়স কম?",
+        "gold": "হীৰেন",
+        "pred": "সঞ্জয়",
+        "generated": "44 বছৰ, গতিকে সঞ্জয়"
+      }
+    ]
+  }
+}

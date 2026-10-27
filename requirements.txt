@@ -1,0 +1,53 @@
+# CL3410 Individual Project — Phase 1 (data collection + tokenizer)
+# Python 3.10+.  All packages below ship working Windows wheels.
+#
+# Deliberately absent: PyICU (does not build on Windows; unicodedata + regex
+# cover everything §4.1 of the plan needs) and KenLM (optional learned filter,
+# §4.4 — run it on Kaggle if at all).
+
+# --- collection: scraping and dumps -----------------------------------------
+httpx>=0.27              # HTTP client for scrapers; HTTP/2, sane timeouts
+trafilatura>=1.12        # main-content extraction from news HTML
+selectolax>=0.3.21       # fast HTML parsing where trafilatura is overkill
+mwparserfromhell>=0.6.6  # wikitext parsing for our own dump extractor
+lxml>=5.2                # XML dump streaming (iterparse)
+
+# --- normalisation and filtering --------------------------------------------
+ftfy>=6.2                # mojibake repair
+regex>=2024.5.15         # Unicode script properties (\p{Devanagari} etc.)
+
+# --- storage ----------------------------------------------------------------
+zstandard>=0.22          # shard compression (~3.5x on Indic text)
+orjson>=3.10             # fast JSONL read/write
+PyYAML>=6.0              # configs and sources.yaml
+
+# --- downloaded tier --------------------------------------------------------
+datasets>=2.20           # HF streaming for Sangraha / IndicCorp / CulturaX
+huggingface-hub>=0.24
+
+# --- deduplication ----------------------------------------------------------
+datasketch>=1.6          # MinHash + LSH (§4.5)
+
+# --- tokenizer --------------------------------------------------------------
+sentencepiece>=0.2.0     # BPE / Unigram, trained from scratch
+
+# --- OCR (manual tier) ------------------------------------------------------
+# Requires the separate UB-Mannheim Tesseract installer on Windows, plus
+# hin.traineddata and asm.traineddata in tessdata/. Set TESSDATA_PREFIX.
+pytesseract>=0.3.10
+pdf2image>=1.17          # needs poppler binaries on PATH
+Pillow>=10.3
+
+# --- statistics and figures -------------------------------------------------
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.9          # every plot needs title, x-label, y-label, legend
+seaborn>=0.13
+
+# --- utilities --------------------------------------------------------------
+tqdm>=4.66
+
+# --- Phase 2: model implementation, pretraining, evaluation ---------------
+torch>=2.2               # Transformer built from nn.Linear/Embedding/LayerNorm
+                         # only -- no nn.Transformer*, no HF model classes
+sacrebleu>=2.4           # BLEU-4 and chrF, the standard reference implementations

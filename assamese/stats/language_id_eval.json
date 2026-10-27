@@ -1,0 +1,1616 @@
+{
+  "n_assamese": 50,
+  "n_bengali": 50,
+  "confusion": {
+    "tp": 50,
+    "fp": 0,
+    "fn": 0,
+    "tn": 50
+  },
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "elapsed_seconds": 35.1,
+  "rows": [
+    {
+      "id": "as_glot500_f4592dc714a23fac",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 171,
+        "bengali_ra": 16,
+        "assamese_wa": 19,
+        "assamese_marker_rate": 0.06775,
+        "bengali_marker_rate": 0.0,
+        "words": 369,
+        "ra_score": 0.8289
+      },
+      "text_sample": "অন্তিমবাৰৰ বাবে পঞ্জাৱ 1987চনৰ 11জুনৰ পৰা 1992চনৰ 25 ফেব্ৰুৱাৰীলৈকে মুঠ 4বছৰ 259দিন ৰাষ্ট্ৰপতি শাসনৰ কৱলত আছিল। অসাংবিধানিক, অগণতান্ত্ৰিক আৰু বিতৰ্কিত"
+    },
+    {
+      "id": "as_indiccorpv2_c081bf287b492ed5",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 152,
+        "bengali_ra": 2,
+        "assamese_wa": 20,
+        "assamese_marker_rate": 0.04469,
+        "bengali_marker_rate": 0.0,
+        "words": 358,
+        "ra_score": 0.974
+      },
+      "text_sample": "চুচুক-চামাক নিয়মীয়া বাৰ্তা 11 মেঃ ৰাজ্যিক বিজেপিৰ উপ-সভাপতি জয়ন্ত মল্ল বৰুৱাক বিজেপি বিধায়িনী দলৰ দলপতিৰ ৰাজনৈতিক সচিব হিচাপে নিযুক্তি দিয়া হৈছে "
+    },
+    {
+      "id": "as_news_df933b8f58dab43e",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 40,
+        "bengali_ra": 0,
+        "assamese_wa": 5,
+        "assamese_marker_rate": 0.07273,
+        "bengali_marker_rate": 0.0,
+        "words": 55,
+        "ra_score": 1.0
+      },
+      "text_sample": "ডিজিটেল সংবাদ,তেজপুৰঃ তেজপুৰৰ ঐতিহাসিক মহাভৈৰৱ মন্দিৰ প্ৰাংগণত অহা 29 জানুৱাৰীৰ পৰা 31 জানুৱাৰীলৈকে তিনিদিনীয়া কাৰ্যসূচীৰে মহাভৈৰৱ মন্দিৰ পৰিচালনা সম"
+    },
+    {
+      "id": "as_sangraha_verified_76fc835e00fd78eb7141af03c1aa4da11c38a5cd",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 0.9954,
+        "assamese_ra": 60,
+        "bengali_ra": 0,
+        "assamese_wa": 7,
+        "assamese_marker_rate": 0.05738,
+        "bengali_marker_rate": 0.0,
+        "words": 122,
+        "ra_score": 1.0
+      },
+      "text_sample": "সোমবাৰে, কেন্দ্ৰীয় চৰকাৰে মেডিকেল অধ্যয়ন কৰি থকা শিক্ষাৰ্থীসকলক এক ডাঙৰ সকাহ দিয়ে। এতিয়া ব্যক্তিগত চিকিৎসা মহাবিদ্যালয়ৰ 50 শতাংশ আসন চৰকাৰী মহাবি"
+    },
+    {
+      "id": "as_sangraha_unverified_183b6cc46baf640422d6470c679c623226be1bf708134f32c1949c9314b514d9",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 0.9939,
+        "assamese_ra": 118,
+        "bengali_ra": 0,
+        "assamese_wa": 8,
+        "assamese_marker_rate": 0.05471,
+        "bengali_marker_rate": 0.0,
+        "words": 329,
+        "ra_score": 1.0
+      },
+      "text_sample": "এইগৰাকী মহিলাই অনলাইনত পাদি উপাৰ্জন কৰিছে লাখ লাখ টকা, এবাৰত লয় 13000 টকা\\nআজিকালি ছচিয়েল মিডিয়াত লুছ বটানিষ্ট নামৰ এগৰাকী মহিলাৰ খুউব চৰ্চা হৈছে। "
+    },
+    {
+      "id": "as_indiccorpv2_84ab11cb07a25afe",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 174,
+        "bengali_ra": 5,
+        "assamese_wa": 17,
+        "assamese_marker_rate": 0.07886,
+        "bengali_marker_rate": 0.0,
+        "words": 317,
+        "ra_score": 0.9441
+      },
+      "text_sample": "12 ফেব্ৰুৱাৰী, 1993-24 অক্টোৱৰ, 1994 ফলত দৈনিক ডাষ্টবিনৰ পৰা লেতেৰা সামগ্ৰী সংগ্ৰহ কৰা বহু কৰ্মী নানা ৰোগত আক্ৰান্ত হ’বলগীয়া হৈছে। পদ নিয়মীয়া নোহোৱ"
+    },
+    {
+      "id": "as_sangraha_verified_0b8a25100ec47b9d60d6e96553ebb08f6aa3c46e",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 98,
+        "bengali_ra": 1,
+        "assamese_wa": 15,
+        "assamese_marker_rate": 0.08876,
+        "bengali_marker_rate": 0.0,
+        "words": 169,
+        "ra_score": 0.9798
+      },
+      "text_sample": "5 নং কোকৰাঝাৰ লোকসভা সমষ্টিৰ কংগ্ৰেছ দলৰ প্ৰাৰ্থী শব্দ ৰাম ৰাভাই আজি তামুলপুৰত ব্যাপক নিৰ্বাচনী প্ৰচাৰ চলায়। আজি পুৱা 10 বজাত তামুলপুৰ ৰাজীৱ ভৱনত শব্"
+    },
+    {
+      "id": "as_sangraha_verified_48b83038ef845a61ba4b23af596af0aa8ae577e1",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 11,
+        "bengali_ra": 0,
+        "assamese_wa": 1,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.0,
+        "words": 36,
+        "ra_score": 1.0
+      },
+      "text_sample": "(শিক্ষক দিৱস বিশেষ লেখা) \"চাৰ, ক্ষমা কৰিব। আমি চাৰ ... আমি চাৰ আপোনাক \"- আমি দুয়ো সমস্বৰে কবলৈ চেষ্টা কৰিলোঁ। মাতটো ওলাই নাহে চোন! ! চকুৰে পানীহে ওলা"
+    },
+    {
+      "id": "as_sangraha_verified_25d7bda2ecaeed47d8ccc9f051e462d4b6136241",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 133,
+        "bengali_ra": 0,
+        "assamese_wa": 10,
+        "assamese_marker_rate": 0.028,
+        "bengali_marker_rate": 0.0,
+        "words": 250,
+        "ra_score": 1.0
+      },
+      "text_sample": "16 বছৰৰ পিছত নিজৰ প্ৰিয় শিক্ষয়িত্ৰীক লগ পাই প্ৰেম নিবেদন কৰিলে এগৰাকী প্ৰাক্তন ছাত্ৰীয়ে। এই ঘটনা মিচিগানৰ। 16 বছৰ আগতে এখন বিদ্যালয়ত সপ্তম শ্ৰেণীৰ"
+    },
+    {
+      "id": "as_sangraha_verified_f60ec5ecff8d0c450a5a4e55ecf5f8e30d7b31a9",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 58,
+        "bengali_ra": 0,
+        "assamese_wa": 3,
+        "assamese_marker_rate": 0.03738,
+        "bengali_marker_rate": 0.0,
+        "words": 107,
+        "ra_score": 1.0
+      },
+      "text_sample": "পাকিস্তানৰ ঠাইবিশেষে ডিজেলতকৈ দাম বাঢ়িছে গাখীৰৰ। দেশখনৰ গুৰুত্বপূৰ্ণ নগৰ কৰাচীত প্ৰতি লিটাৰ গাখীৰ বিক্ৰী হৈছে 140 পাকিস্তানী টকা পৰ্য্যন্ত। দেশখনত এত"
+    },
+    {
+      "id": "as_indiccorpv2_2efccc946ef0ada9",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 188,
+        "bengali_ra": 9,
+        "assamese_wa": 15,
+        "assamese_marker_rate": 0.04585,
+        "bengali_marker_rate": 0.0,
+        "words": 349,
+        "ra_score": 0.9086
+      },
+      "text_sample": "বনাঞ্চলখনৰ অৰণ্যৰাজি প্ৰধানকৈ ক্ৰান্তীয় অৰ্ধ চিৰসেউজ আৰু ঠাইবিশেষে ক্ৰান্তীয় সেমেকা পৰ্ণপাতী অৰণ্য দেখিবলৈ পোৱা যায়। অভয়াৰণ্যখনত শলখ, খকন, ভেলেউ, "
+    },
+    {
+      "id": "as_glot500_f607c42ba68b155d",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 167,
+        "bengali_ra": 0,
+        "assamese_wa": 18,
+        "assamese_marker_rate": 0.06709,
+        "bengali_marker_rate": 0.0,
+        "words": 313,
+        "ra_score": 1.0
+      },
+      "text_sample": "এই ৰাসায়নিক দুৰ্গন্ধ পানী সতেজ কৰি ৰাখিবৰ বাবে ব্যৱহাৰ কৰা ৰাসায়নিক দ্ৰব্য অধিক পৰিমাণৰ থকাৰ বাবে এই দুৰ্গন্ধ বাহিৰ হৈছে বুলি মত ব্যক্ত কৰিছে একাংশ "
+    },
+    {
+      "id": "as_sangraha_verified_2c21bf5bf2381d759d91a6531c97150340f4a086",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 36,
+        "bengali_ra": 0,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.04255,
+        "bengali_marker_rate": 0.0,
+        "words": 47,
+        "ra_score": 1.0
+      },
+      "text_sample": "মানকাচৰত অব্যাহত আছে গৰুৰ চোৰাং কাৰবাৰ। বি এছ এফৰ জালত চোৰাং গৰুসহ সৰবৰাহকাৰী। ভাৰত-বাংলাদেশ সীমান্তৰ পৰা বি এছ এফে আটক কৰে গৰু সৰবৰাহকাৰীটোক। বি এছ এ"
+    },
+    {
+      "id": "as_sangraha_verified_c2e077768b3be0744e1f2089d672719917f42f5e",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 66,
+        "bengali_ra": 2,
+        "assamese_wa": 7,
+        "assamese_marker_rate": 0.14504,
+        "bengali_marker_rate": 0.0,
+        "words": 131,
+        "ra_score": 0.9412
+      },
+      "text_sample": "ন্যূনতম এসপ্তাহলৈ সময় বৃদ্ধিৰ দাবী জনাই তেওঁ কয় যে বৰ্তমানো অব্যাহত আছে চতুৰ্থ পৰ্যায়ৰ তলাবন্ধ। লগতে এই মুহূৰ্তত বাছ অথবা ৰেলত যাত্ৰা কৰাটো বিপদজনক"
+    },
+    {
+      "id": "as_indiccorpv2_10fe3cfaa2f97cfc",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 0.9973,
+        "assamese_ra": 187,
+        "bengali_ra": 0,
+        "assamese_wa": 20,
+        "assamese_marker_rate": 0.07186,
+        "bengali_marker_rate": 0.00299,
+        "words": 334,
+        "ra_score": 1.0
+      },
+      "text_sample": "2)পাব্লিক প্ৰভিডেণ্ট ফাণ্ড(PPF)ত টকা জমা থ'লে সুতৰ হাৰ কিমান? ধৰ্ষণৰ বলি হোৱা মহিলালৈ তিনি লাখ টকাকৈ আৰ্থিক সাহায্য দিয়াৰ লগতে বিশেষভাৱে সক্ষম মহিলাল"
+    },
+    {
+      "id": "as_indiccorpv2_9dbfe70543fd0181",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 184,
+        "bengali_ra": 13,
+        "assamese_wa": 20,
+        "assamese_marker_rate": 0.05422,
+        "bengali_marker_rate": 0.0,
+        "words": 332,
+        "ra_score": 0.868
+      },
+      "text_sample": "কুটন’ এথলেটিক্ছ মিটত স্বৰ্ণ পদক অৰ্জন হিমাৰ আৰক্ষীৰ জিম্মাত থকা লোকজনে সুযোগ লৈ থানাৰ পৰা পলায়ন কৰাত দিছপুৰ থানাত হুৱাদুৱা পৰিস্থিতিৰ সৃষ্টি হয়৷ পাছ"
+    },
+    {
+      "id": "as_sangraha_verified_ea4bf328969c6caf31d7fa761b6310184e6d4929461d2766b107747cf5c7fd6a",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 483,
+        "bengali_ra": 36,
+        "assamese_wa": 80,
+        "assamese_marker_rate": 0.04189,
+        "bengali_marker_rate": 0.0,
+        "words": 1289,
+        "ra_score": 0.8613
+      },
+      "text_sample": "দুপৰীয়াৰ নিজান। কাৰো মুখত কথা নাই। ক'ৰবাত কপৌৰ ৰুণে মেটমৰা দুপৰীয়াটোক গুণ টানি নিয়া যেন লাগিছিল। বিছনাত পৰি অনির্বাণে ওপৰত ঘূৰা বিজুলি বিচনীখন এনেয"
+    },
+    {
+      "id": "as_madlad_as_clean_64fc57a54224c0ec",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 0.9856,
+        "assamese_ra": 82,
+        "bengali_ra": 0,
+        "assamese_wa": 6,
+        "assamese_marker_rate": 0.04103,
+        "bengali_marker_rate": 0.0,
+        "words": 195,
+        "ra_score": 1.0
+      },
+      "text_sample": "পৃষ্ঠা:গল্পাঞ্জলি.pdf/14 - ৱিকিউৎস\\nপাৰ্ব্বতীক বিয়া কৰাবলৈ নাপালে চিৰকুমাৰ ব্ৰত লৈ জীৱন নিওৱা, বিৰহৰ দুঃসহ বেদনা বৰ্ণাই কবিতা লিখা আদি কথাবিলাক তেতিয"
+    },
+    {
+      "id": "as_sangraha_verified_daf611f230d0a245480edb008124e201c99b1cfa",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 0.9854,
+        "assamese_ra": 36,
+        "bengali_ra": 0,
+        "assamese_wa": 3,
+        "assamese_marker_rate": 0.01923,
+        "bengali_marker_rate": 0.0,
+        "words": 104,
+        "ra_score": 1.0
+      },
+      "text_sample": "ছচিয়েল মিডিয়াত প্ৰায়ে সক্ৰিয় অমিতাভ বচ্চনে। বিভিন্ন সময়ত আকৰ্ষণীয় ভিডিঅ' শ্বেয়াৰ কৰে বলীউদৰ মেগাষ্টাৰগৰাকীয়ে। এইবাৰ এটা ভিডিঅ' চাই অমিতাভ বচ্চ"
+    },
+    {
+      "id": "as_news_c7f7dae1f815b560",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 143,
+        "bengali_ra": 0,
+        "assamese_wa": 14,
+        "assamese_marker_rate": 0.06114,
+        "bengali_marker_rate": 0.0,
+        "words": 229,
+        "ra_score": 1.0
+      },
+      "text_sample": "ডিজিটেল সংবাদ চিৰাং: চিৰাঙৰ কাজলগাঁও পৌৰসভাৰ ইউপিপিএল দলৰ 2 নং ৱাৰ্ডৰ মেম্বাৰ খলিলুৰ ৰহমানৰ গুণ্ডাগিৰি কৰাৰ অভিযোগ উত্থাপিত হৈছে । ৱাৰ্ড মেম্বাৰ খলিলু"
+    },
+    {
+      "id": "as_glot500_d63ca599dfd2dc6a",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 145,
+        "bengali_ra": 3,
+        "assamese_wa": 13,
+        "assamese_marker_rate": 0.07229,
+        "bengali_marker_rate": 0.0,
+        "words": 332,
+        "ra_score": 0.9595
+      },
+      "text_sample": "এমাজনৰ ফালৰ পৰা জানিব দিয়া মতে 2025 চনৰ ভিতৰত কমেও 10 হাজাৰ এনেকুৱা বাহৰ ভাৰতৰ পথত চলাচল কৰিব যিটো 2030চনৰ ভিতৰত এক লাখ স্পৰ্শ কৰিব। শৰীৰটো নিৰোগী কৰ"
+    },
+    {
+      "id": "as_glot500_0843ca9f22f98b92",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 0.9991,
+        "assamese_ra": 136,
+        "bengali_ra": 23,
+        "assamese_wa": 24,
+        "assamese_marker_rate": 0.05607,
+        "bengali_marker_rate": 0.0,
+        "words": 321,
+        "ra_score": 0.7107
+      },
+      "text_sample": "বৰাকৰ পাঁচগ্ৰাম কাগজকলৰ আৰু এজন কৰ্মচাৰীৰ মৃত্যু হৈছে। যদিহে এন এইচ পি চিয়ে ইয়াৰ নিৰ্মাণৰ কাম বন্ধ নকৰে, তেন্তে জোৰ কৰি হ’লেও নামনি সোৱণশিৰি জলবিদ্য"
+    },
+    {
+      "id": "as_indiccorpv2_a16363753ca048f9",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 0.9975,
+        "assamese_ra": 143,
+        "bengali_ra": 7,
+        "assamese_wa": 30,
+        "assamese_marker_rate": 0.04945,
+        "bengali_marker_rate": 0.0,
+        "words": 364,
+        "ra_score": 0.9067
+      },
+      "text_sample": "বাগিচাৰ মজুৰি প্রদানৰ সমস্যা দূৰ হৈছে: হিমন্ত ৰাজ্যত এতিয়া বহুকেইটা বিভাগত ওলাইছে চাকৰিৰ বিজ্ঞাপন। এই বিজ্ঞাপন প্ৰকাশ পোৱাৰ লগে লগে মহানগৰীৰ ৰিহাবাৰী"
+    },
+    {
+      "id": "as_glot500_41f935221a23c380",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 168,
+        "bengali_ra": 1,
+        "assamese_wa": 14,
+        "assamese_marker_rate": 0.0806,
+        "bengali_marker_rate": 0.0,
+        "words": 335,
+        "ra_score": 0.9882
+      },
+      "text_sample": "পিঠিত ক’কচেংগ আঁৰি বজাৰ কৰি থকা মুহূৰ্তত… জম্মু-কাশ্মীৰত শ্বহীদ হ’ল আন এজন জোৱান। যদিহে এনে আশংকাই বাস্তৱ ৰূপ লয় তেন্তে অনাগত দিনত ৰাজ্য চৰকাৰৰ বাবে "
+    },
+    {
+      "id": "as_indiccorpv2_93bc89d32ad52183",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 147,
+        "bengali_ra": 9,
+        "assamese_wa": 26,
+        "assamese_marker_rate": 0.04828,
+        "bengali_marker_rate": 0.0,
+        "words": 290,
+        "ra_score": 0.8846
+      },
+      "text_sample": "আহোম শাসনকালৰ অষ্টাদশ শতিকাৰ অক্ষয় কীৰ্তি আহোম স্বৰ্গদেউ শিৱসিংহৰ পত্নী মহাৰাণী অম্বিকায়ে 1734 ত খন্দোৱা ঐতিহাসিক শিৱসাগৰ বৰপুখুৰীৰ চাৰিওফালে এক বৃহ"
+    },
+    {
+      "id": "as_sangraha_verified_f3f7a4e139b26299b8c6625e14ca75899a576008",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 68,
+        "bengali_ra": 0,
+        "assamese_wa": 5,
+        "assamese_marker_rate": 0.06087,
+        "bengali_marker_rate": 0.0,
+        "words": 115,
+        "ra_score": 1.0
+      },
+      "text_sample": "মাণিকপুৰত বঙাইগাঁও আৰক্ষীৰ বৃহৎ বাইক ৰেলী। ৰাষ্ট্ৰপতিয়ে অসম আৰক্ষীক সন্মান প্ৰদান কৰি আগবঢ়োৱা ৰ 10 মেত গুৱাহাটীত অনুষ্ঠিত হ'বলগীয়া অনুষ্ঠানত কেন্দ্"
+    },
+    {
+      "id": "as_sangraha_verified_82d16df8cb8e0349f09185bfe7f91819f69e41e3",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 0.9877,
+        "assamese_ra": 32,
+        "bengali_ra": 0,
+        "assamese_wa": 2,
+        "assamese_marker_rate": 0.04545,
+        "bengali_marker_rate": 0.0,
+        "words": 44,
+        "ra_score": 1.0
+      },
+      "text_sample": "কামপুৰঃ কামপুৰৰ কচুৱা থানাৰ অন্তৰ্গত বগৰীতলত দুৰ্ঘটনা। কামপুৰ বৈঠালাংচু পথত এই দুৰ্ঘটনা। তীব্ৰবেগী বালি ভৰ্তি ট্ৰাকৰ খুন্দাত আহত এটি বাৰ বছৰীয়া কিশোৰ"
+    },
+    {
+      "id": "as_sangraha_verified_ae4ee8bcc74888a63b19adcb946f584b77a58629",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 37,
+        "bengali_ra": 0,
+        "assamese_wa": 9,
+        "assamese_marker_rate": 0.07143,
+        "bengali_marker_rate": 0.0,
+        "words": 84,
+        "ra_score": 1.0
+      },
+      "text_sample": "জীৱনলৈ অহা কণ্টকময় পঠকো নেওচি সফল হ'বলৈ সক্ষম হৈছে মহানগৰৰ এজন যুৱক । বৰ্তমান তেওঁ অসমৰ এজন প্ৰতিষ্ঠিত ব্যৱসায়ী । গুৱাহাটী চিকিৎসা মহাবিদ্যালয় হাস্"
+    },
+    {
+      "id": "as_indiccorpv2_0496bee785ba2568",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 158,
+        "bengali_ra": 22,
+        "assamese_wa": 17,
+        "assamese_marker_rate": 0.04459,
+        "bengali_marker_rate": 0.0,
+        "words": 314,
+        "ra_score": 0.7556
+      },
+      "text_sample": "আৰক্ষীয়ে আজি তেওঁক আদালতত হাজিৰ কৰায়৷ কিন্তু লক্ষণীয়ভাৱে তেওঁক কাৰাগাৰলৈ প্রেৰণ কৰাৰ কথা আগতেই নির্ধাৰিত হৈ পৰে৷ কাৰণ কোনো অভিযুক্তক আদালতত হাজিৰ ক"
+    },
+    {
+      "id": "as_indiccorpv2_75828e06b5448498",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 186,
+        "bengali_ra": 4,
+        "assamese_wa": 18,
+        "assamese_marker_rate": 0.09236,
+        "bengali_marker_rate": 0.0,
+        "words": 314,
+        "ra_score": 0.9579
+      },
+      "text_sample": "মই সৰুতে যিজনী ছোৱালীৰ পাৰ্টটাইম বয়ফ্ৰেণ্ড হৈছিলোঁ সেইজনীকে আকৌ এবাৰ লগ পালে ফুলটাইম প্ৰেমিকা পাতি ল’ম বুলি মনতে আশা কৰি আছিলোঁ। মনৰ আশা হঠাৎ পূৰ্ণ হ"
+    },
+    {
+      "id": "as_indiccorpv2_360d50d647329c89",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 170,
+        "bengali_ra": 0,
+        "assamese_wa": 23,
+        "assamese_marker_rate": 0.07101,
+        "bengali_marker_rate": 0.00296,
+        "words": 338,
+        "ra_score": 1.0
+      },
+      "text_sample": "বিহালীত বন্য হস্তীৰ উপদ্ৰৱ; তহিলং 100 বিঘাৰো অধিক ধান খেতি উল্লেখযোগ্য যে এই জৈৱ-সম্পদ গৱেষণা কেন্দ্ৰটো সমগ্ৰ উত্তৰ-পূৰ্বাঞ্চলৰ ভিতৰত এনেধৰণৰ একমাত্ৰ "
+    },
+    {
+      "id": "as_glot500_a4cb542ab304278f",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 168,
+        "bengali_ra": 12,
+        "assamese_wa": 22,
+        "assamese_marker_rate": 0.08289,
+        "bengali_marker_rate": 0.0,
+        "words": 374,
+        "ra_score": 0.8667
+      },
+      "text_sample": "তুমি আৰু মই আজি লেগ দুটা খাম । সেয়েহে উক্ত সমস্যা সমূহ সমাধানৰ বাবে কেন্দ্ৰীয় মন্ত্ৰীগৰাকীক পদক্ষেপ ল’বলৈ অনুৰোধ কৰে ৰাজ্যপালগৰাকীয়ে। ইয়াৰোপৰি প্ল"
+    },
+    {
+      "id": "as_indiccorpv2_ac6c17932acd449f",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 177,
+        "bengali_ra": 6,
+        "assamese_wa": 28,
+        "assamese_marker_rate": 0.05556,
+        "bengali_marker_rate": 0.0,
+        "words": 378,
+        "ra_score": 0.9344
+      },
+      "text_sample": "লখিমপুৰৰ কংগ্ৰেছ প্ৰাৰ্থী অনিল বৰগোঁহাইৰ মনোনয়ন পত্ৰ স্থগিত : আজি সন্ধিয়া নিৰ্ণয় হ’ব ভাগ্য বিশ্বজুৰি সমাদৃত আমেৰিকাৰ বিখ্যাত ফ’ৰ্বছ আলোচনীয়ে অলপতে"
+    },
+    {
+      "id": "as_sangraha_verified_330cf239541fbeb73a9aef77c94920da4a8ceba4",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 41,
+        "bengali_ra": 17,
+        "assamese_wa": 10,
+        "assamese_marker_rate": 0.07071,
+        "bengali_marker_rate": 0.0101,
+        "words": 99,
+        "ra_score": 0.4138
+      },
+      "text_sample": "শুক্রবাৰে ভাৰতীয় ৰিজার্ভ বেংকে ত্রৈমাসিক ঋণনীতি ঘোষণা কৰে। উল্লেখযোগ্য যে যোৱা জুলাই-ছেপ্টেম্বৰ ত্রৈমাসিকত ভাৰতৰ দেশীয় জিডিপি 7. 5 শতাংশ সংকুচিত হৈছ"
+    },
+    {
+      "id": "as_indiccorpv2_2f99c4d8b029920c",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 156,
+        "bengali_ra": 9,
+        "assamese_wa": 23,
+        "assamese_marker_rate": 0.04308,
+        "bengali_marker_rate": 0.0,
+        "words": 325,
+        "ra_score": 0.8909
+      },
+      "text_sample": "এই খবৰ বিয়পি পৰাৰ পাছতেই একালত তেওঁৰ সৈতে সন্দিকৈ মহাবিদ্যালয়ত অধ্যাপনা কৰা অধ্যাপক সকলো আচৰিত হৈছে। 80 গৰকা ৰেণু গোস্বামীয়ে এদিন তেখেতৰ সৈতেই একেল"
+    },
+    {
+      "id": "as_news_893c2460bea22941",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 45,
+        "bengali_ra": 0,
+        "assamese_wa": 2,
+        "assamese_marker_rate": 0.04,
+        "bengali_marker_rate": 0.0,
+        "words": 75,
+        "ra_score": 1.0
+      },
+      "text_sample": "ডিজিটেল ডেস্ক : দক্ষিন আফ্ৰিকাৰ পৰা ভাৰতলৈ অহা 4 গৰাকী লোকৰ দেহত পোৱা গৈছে কোৰোনাৰ নুতুন ষ্ট্ৰেইন । আনহাতে ব্ৰাজিলৰ পৰা অহা এগৰাকী ৰ দেহত পোৱা গৈছে কো"
+    },
+    {
+      "id": "as_news_588f4099551ab027",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 90,
+        "bengali_ra": 0,
+        "assamese_wa": 5,
+        "assamese_marker_rate": 0.05917,
+        "bengali_marker_rate": 0.0,
+        "words": 169,
+        "ra_score": 1.0
+      },
+      "text_sample": "ডিজিটেল ডেস্কঃ পাকিস্তানৰ বিৰুদ্ধে ভাৰতে চলোৱাঅপাৰেচন সিন্দুৰৰ সময়ত ভাৰতীয় বায়ুসেনাই আকাশত ছখন পাকিস্তানী যুদ্ধ বিমান নিক্ষেপ কৰে। ইয়াৰ লগতে কেইবা"
+    },
+    {
+      "id": "as_sangraha_verified_9654857c38c49c0bb5ba569cdd719d6b831e6479902c052876d425dd1575dbfb",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 420,
+        "bengali_ra": 26,
+        "assamese_wa": 40,
+        "assamese_marker_rate": 0.05606,
+        "bengali_marker_rate": 0.0,
+        "words": 1106,
+        "ra_score": 0.8834
+      },
+      "text_sample": "\"মোক এইদৰে ক'বলৈ তোৰ ইমান সাহ হ'লনে? মনত ৰাখিবি যে মই তোৰ ধৰ্মপিতা। মই তোৰ কল্যাণৰ বাবে ঈশ্বৰক প্ৰাৰ্থনা কৰিছোঁ; তোৰ চিন্তাত মই বহুদিন কষ্ট ভুগিছোঁ। ত"
+    },
+    {
+      "id": "as_indiccorpv2_c9c48cf723e30d0c",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 205,
+        "bengali_ra": 0,
+        "assamese_wa": 28,
+        "assamese_marker_rate": 0.08152,
+        "bengali_marker_rate": 0.0,
+        "words": 368,
+        "ra_score": 1.0
+      },
+      "text_sample": "কম্পিউটাৰ ভাইৰাছে মাদাৰ বোৰ্ডত প্ৰভাৱ নেপেলায়। নিৰ্দেশনাত উল্লেখ কৰা অনুসৰি প্ৰথম মান শ্ৰেণীৰ পৰা পঞ্চম শ্ৰেণীলৈ পাঠদান পৰৱৰ্তী নিৰ্দেশনা প্ৰদান নকৰা"
+    },
+    {
+      "id": "as_sangraha_verified_63aa7282412a3e2cefe24fcabfeb4b9f8cb2d7c1",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 90,
+        "bengali_ra": 0,
+        "assamese_wa": 2,
+        "assamese_marker_rate": 0.03333,
+        "bengali_marker_rate": 0.0,
+        "words": 150,
+        "ra_score": 1.0
+      },
+      "text_sample": "হোজাইৰ বিধায়ক শিলাদিত্য দেবৰ বিৰুদ্ধে আজি দুপৰীয়া নগাঁও জিলাৰ পুৰণিগুদামত গৰীয়া-মৰিয়া দেশী জাতীয় পৰিষদৰ নগাঁও জিলা সমিতিয়ে সাব্যস্ত কৰিলে তীব্ৰ "
+    },
+    {
+      "id": "as_indiccorpv2_4aee67e0b7271bf9",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 194,
+        "bengali_ra": 0,
+        "assamese_wa": 22,
+        "assamese_marker_rate": 0.04248,
+        "bengali_marker_rate": 0.0,
+        "words": 306,
+        "ra_score": 1.0
+      },
+      "text_sample": "মাংসপেশিৰ বিষ,গাঁঠিৰ বিষৰ মালিশ কৰা মলম হিচাবে ৷ এই বিধানসমূহৰ মতে অসমলৈ 2004 চনৰ 3 ডিছেম্বৰলৈ অহা সকলোকে নাগৰিকত্ব প্ৰদান কৰা হৈছে। তাৰ পাছত নাগৰিকত্"
+    },
+    {
+      "id": "as_glot500_3d99014514ea1da9",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 144,
+        "bengali_ra": 4,
+        "assamese_wa": 14,
+        "assamese_marker_rate": 0.06006,
+        "bengali_marker_rate": 0.0,
+        "words": 333,
+        "ra_score": 0.9459
+      },
+      "text_sample": "শুক্লবৈদ্যৰ সৈতে 5/6 জন চি আৰ পি এফ জোৱান আছিলে। এই পৰম্পৰাত দৰাৰ জোতা লুকুৱাই পুনৰ ধনৰ বিনিময়ত জোতাজোৰ ঘূৰাই দিয়া হয়। অৰ্জুন বঁটাৰ বাবে নিৰ্বাচিত "
+    },
+    {
+      "id": "as_glot500_954c5d1c30f8d4c6",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 0.9991,
+        "assamese_ra": 142,
+        "bengali_ra": 1,
+        "assamese_wa": 11,
+        "assamese_marker_rate": 0.03537,
+        "bengali_marker_rate": 0.0,
+        "words": 311,
+        "ra_score": 0.986
+      },
+      "text_sample": "সাধাৰণ লোকৰ পৰা গ্লেমালাৰ্ছ তাৰকালৈ. . প্ৰেমৰ বাবেই যেন এক সুকীয়া পৃথিৱী। ৰাফেল বিমানৰ ক্ষেত্ৰত উচ্চতম ন্যায়ালয়ে যি ৰায় দিলে তাত বিজেপি চৰকাৰৰ বিপ"
+    },
+    {
+      "id": "as_madlad_as_clean_e9161dd5c0422cf6",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 0.9793,
+        "assamese_ra": 223,
+        "bengali_ra": 27,
+        "assamese_wa": 22,
+        "assamese_marker_rate": 0.04429,
+        "bengali_marker_rate": 0.0,
+        "words": 700,
+        "ra_score": 0.784
+      },
+      "text_sample": "ধেমেলীয়া_গল্প – on ধেমেলীয়া_গল্প\\nপুলিচ অফিচাৰজনে ৰাস্তাইদি অহা যোৱা কৰা যান বাহনবোৰ চেকিং কৰিব আহিছে লগত এজন চিপাহী লৈ। জাৰ কালিৰ গধুলিটো ক্ৰমাৎ ৰা"
+    },
+    {
+      "id": "as_indiccorpv2_8aa19facad967f3b",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 180,
+        "bengali_ra": 12,
+        "assamese_wa": 24,
+        "assamese_marker_rate": 0.05048,
+        "bengali_marker_rate": 0.0,
+        "words": 416,
+        "ra_score": 0.875
+      },
+      "text_sample": "বটদ্রৱা বিধানসভা সমষ্টিত বিজেপিৰ পৰা আঙুৰলতা ডেকাই পুনৰ প্রার্থিত্ব লাভ কৰাটো নিশ্চিত যদিও যুৱ নেতা ৰোহিণী বৰাই ভিতৰি ভিতৰি কুচকাৱাজ অব্যাহত ৰাখিছে৷ ক"
+    },
+    {
+      "id": "as_indiccorpv2_31a5259350fb4290",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 194,
+        "bengali_ra": 0,
+        "assamese_wa": 18,
+        "assamese_marker_rate": 0.06667,
+        "bengali_marker_rate": 0.0,
+        "words": 315,
+        "ra_score": 1.0
+      },
+      "text_sample": "কলেৰা ৰোগীসকলৰ বাবে আহাৰ আৰম্ভ কৰাটো তৰল খাদ্যৰে কৰিব পাৰে। লগতে, ৰোগীসকলে গোটেই দিনটো যথেষ্ট পৰিমাণে পানী, চডা আৰু নাৰিকল পানী খাব লাগে। মনত ৰাখিব যে"
+    },
+    {
+      "id": "as_news_5761cf3b41ba4c8b",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 52,
+        "bengali_ra": 0,
+        "assamese_wa": 5,
+        "assamese_marker_rate": 0.06897,
+        "bengali_marker_rate": 0.0,
+        "words": 87,
+        "ra_score": 1.0
+      },
+      "text_sample": "ডিজিটেল সংবাদ,নগাঁও : বাংলাদেশত হিন্দুৰ ওপৰত হোৱা অত্যাচাৰৰ আৰু মঠ মন্দিৰ ধবংসৰ প্ৰতিবাদত শনিবাৰে নগাঁৱৰ হিন্দু মিলন মন্দিৰত এক বিক্ষোভ কাৰ্যসূচী ৰূপা"
+    },
+    {
+      "id": "as_indiccorpv2_e3c952d630e129f7",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 175,
+        "bengali_ra": 6,
+        "assamese_wa": 16,
+        "assamese_marker_rate": 0.05723,
+        "bengali_marker_rate": 0.0,
+        "words": 332,
+        "ra_score": 0.9337
+      },
+      "text_sample": "নাগৰিকত্ব সংশোধনী বিধেয়ক, 2016 বাতিল দাবীত 127 (ডি) ৰঙিয়া-ভূটান পথত তামুলপুৰ আঞ্চলিক ছাত্ৰ সন্থাই প্ৰধান মন্ত্ৰী নৰেন্দ্ৰ মোডীৰ পুত্তলিকা দাহ কৰে। প"
+    },
+    {
+      "id": "as_news_98f310d89388c617",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 66,
+        "bengali_ra": 0,
+        "assamese_wa": 19,
+        "assamese_marker_rate": 0.02479,
+        "bengali_marker_rate": 0.0,
+        "words": 121,
+        "ra_score": 1.0
+      },
+      "text_sample": "ডিজিটেল সংবাদ, বৰপেটাঃ ক্ৰমাৎ যেন মুকলি জুৱাৰ ঘাটিলৈ পৰিণত বৰপেটা জিলা। জিলাখনৰ চোকে-কোণে এতিয়া কেৱল জুৱা আৰু জুৱা। কিন্তু নিৰ্লিপ্ত হৈ পৰিছে বৰপেটা "
+    },
+    {
+      "id": "as_indiccorpv2_b174b073f9e0ce12",
+      "truth": "assamese",
+      "predicted": "assamese",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 163,
+        "bengali_ra": 0,
+        "assamese_wa": 24,
+        "assamese_marker_rate": 0.05556,
+        "bengali_marker_rate": 0.0,
+        "words": 306,
+        "ra_score": 1.0
+      },
+      "text_sample": "তাই মনতে প্ৰতিজ্ঞা কৰিছিল যে তাই ৰাজক পুনৰ সেই সংগীতৰ জগতখনলৈ উভতাই আনিব, কাৰণ তাই জানিছিল সংগীতেহে তাক পুৰণি জীৱনটো ঘূৰাই দিব পাৰিব৷ যোৱা কেইবাবছৰ ধৰ"
+    },
+    {
+      "id": "bn_eval_22738dfd4a287159",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 157,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.01176,
+        "bengali_marker_rate": 0.03824,
+        "words": 340,
+        "ra_score": -1.0
+      },
+      "text_sample": "নয়াদিল্লি: আজ ভ্যালেন্টাইনস ডে। এমন একটি দিনে প্রিয় মানুষকে হৃদয় উজাড় করা ভালোবাসার বার্তা দিতে পৌঁছে দিতে উন্মুখ অনেকেই। এমন একটি দিনে ভারতীয় দলের প"
+    },
+    {
+      "id": "bn_eval_75657ef27be2703e",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 139,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03681,
+        "words": 326,
+        "ra_score": -1.0
+      },
+      "text_sample": "যুবরাজ মোহাম্মদ বিন সালমান (বাঁয়ে) এবং বাদশাহর ছোট ভাই প্রিন্স আহমেদ বিন আবদুল আজিজ\n‘দিন দ্য ডে’র বর্তমান অবস্থা নিয়ে ইরান থেকে মঙ্গলবার দুপুরে চ্যানে"
+    },
+    {
+      "id": "bn_eval_70e794a128abd024",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 0.9823,
+        "assamese_ra": 0,
+        "bengali_ra": 110,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.00282,
+        "bengali_marker_rate": 0.02535,
+        "words": 355,
+        "ra_score": -1.0
+      },
+      "text_sample": "(৩) উপ-ধারা (১) এর (গ) দফার (অ) উপ-দফা অনু্‌যায়ী কোন কোম্পানী বা অন্য কোন নিগমিত সংস্থা, ম্যানেজিং এজেন্ট, সহযোগী, ব্যবস্থাপনা-পরিচালক বা ম্যানেজার যে"
+    },
+    {
+      "id": "bn_eval_4aa9e912a3fe81f3",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 149,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.0495,
+        "words": 303,
+        "ra_score": -1.0
+      },
+      "text_sample": "অর্থমন্ত্রী আ হ ম মুস্তফা কামাল বলেছেন, দেশে ডলারের দাম বাজারভিত্তিক। সরকার বা কেন্দ্রীয় ব্যাংক এতে হস্তক্ষেপ করে না। কেন্দ্রীয় ব্যাংক বিভিন্ন সময়ে কি"
+    },
+    {
+      "id": "bn_eval_4cadb64ec1c42738",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 175,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03279,
+        "words": 366,
+        "ra_score": -1.0
+      },
+      "text_sample": "বিএনপির ৪০তম প্রতিষ্ঠাবার্ষিকী উপলক্ষে শনিবার দুপুর ২টায় নয়াপল্টনে দলের কেন্দ্রীয় কার্যালয়ের সামনের সড়কে আয়োজিত জনসভায় সভাপতির বক্তব্যে তিনি এসব কথা ব"
+    },
+    {
+      "id": "bn_eval_a72879debdf63fbe",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 123,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03175,
+        "words": 315,
+        "ra_score": -1.0
+      },
+      "text_sample": "প্রসঙ্গত, এবার বাংলাদেশ থেকে এক  লাখ এক হাজার ৭৮০ হজযাত্রীর হজে যাওয়ার কথা রয়েছে।\nটিউলিপের দাবিতে পাল্টাল ব্রিটিশ বিধি\nকক্সবাজার, ৩০ এপ্রিল (ইউএনবি)- "
+    },
+    {
+      "id": "bn_eval_ea1b21a6fa84ca27",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 143,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.02349,
+        "words": 298,
+        "ra_score": -1.0
+      },
+      "text_sample": "সেদেশের পুলিশ জানায়, চিন লি কনস্ট্রাকশনের নিয়োগকৃত ওই বাংলাদেশি শ্রমিককে উদ্ধার করে চাঙ্গি জেনারেল হাসপাতালে নিয়ে যাওয়া হয়।তিনি  সেখানে মারা যান।\nন"
+    },
+    {
+      "id": "bn_eval_e5468f2536d50072",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 173,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.04037,
+        "words": 322,
+        "ra_score": -1.0
+      },
+      "text_sample": "অ্যানথ্রোপোলজিক্যাল সার্ভে অফ ইন্ডিয়া\nলেফটেন্যান্ট কর্নেল তুহিন মোহাম্মদ মাসুদ জানান, প্রতারণার জন্য মোবাইল সারানোর দোকান ব্যবহার করে প্রতারকচক্র। এস"
+    },
+    {
+      "id": "bn_eval_ec4a42fbb9d60e9b",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 0.9881,
+        "assamese_ra": 0,
+        "bengali_ra": 132,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.02841,
+        "words": 352,
+        "ra_score": -1.0
+      },
+      "text_sample": "পৌরসভার ট্যাক্স তিন বছর ধরে বাকী। চিন্তায় চিন্তায় মাথা খারাপ হবার অবস্থা মিতালীদেবীর। শেষ চিঠিটা বেশ কড়া চিঠি এসেছে পৌরসভা থেকে। একমাসের মধ্যে তিন ব"
+    },
+    {
+      "id": "bn_eval_eca7de366b78edaa",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 415,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.06061,
+        "words": 792,
+        "ra_score": -1.0
+      },
+      "text_sample": "আপডেট: ১৬ মার্চ, ২০১৫, ১৭:১২\nপরদিন তিনি এলেন এবং কবি তার জন্য লিখে দিলেন, ‘ইসলামের ঐ সওদা লয়ে এলো নবীন সওদাগর  ’। চারদিন পর গজল দুটো রেকর্ড হল এবং বা"
+    },
+    {
+      "id": "bn_eval_1266cb851e28b9ce",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 0.9975,
+        "assamese_ra": 0,
+        "bengali_ra": 146,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.04558,
+        "words": 351,
+        "ra_score": -1.0
+      },
+      "text_sample": "চট্টগ্রামের বাঁশখালীতে র‌্যাবের সাথে ‘বন্দুকযুদ্ধে’ শিশু ধর্ষণ মামলার আসামি আব্দুল হাকিম মিন্টু নিহত হয়েছে। সোমবার রাতে বাঁশখালী-পেকুয়া এলাকায় সন্ত্রা"
+    },
+    {
+      "id": "bn_eval_a32921e6575f3e0a",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 161,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03797,
+        "words": 316,
+        "ra_score": -1.0
+      },
+      "text_sample": "আজ সোমবার ভোররাতে সাভারের আশুলিয়ার দক্ষিণ বাইপাইল এলাকার একটি বাড়ি থেকে লাশ উদ্ধার করে পুলিশ। আশুলিয়া থানার ভারপ্রাপ্ত কর্মকর্তা রেজাউল হক দীপু জানান,"
+    },
+    {
+      "id": "bn_eval_bed8915a4d81a335",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 0.999,
+        "assamese_ra": 0,
+        "bengali_ra": 98,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.01347,
+        "words": 297,
+        "ra_score": -1.0
+      },
+      "text_sample": "রাজধানীর ২৩ নম্বর বঙ্গবন্ধু এভিনিউ থেকে স্বেচ্ছাসেবক লীগের কেন্দ্রীয় সভাপতি নির্মল রঞ্জন গুহ ও সাধারণ সম্পাদক আফজালপুর রহমান বাবুসহ অন্য নেতারা ভার্চু"
+    },
+    {
+      "id": "bn_eval_dc96e2d6be6cfcfa",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 166,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.07419,
+        "words": 310,
+        "ra_score": -1.0
+      },
+      "text_sample": "হাওড়া থেকে ট্রেন ধরে আদ্রা স্টেশন (একাধিক ট্রেন রয়েছে)। সেখান থেকে ট্রেনে মুরাডি। মুরাডি থেকে অটো বা গাড়ি ভাড়া করে পৌঁছে যাবেন বরন্তি। এখানে ছোট-বড়"
+    },
+    {
+      "id": "bn_eval_39869b357c46e69e",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 0.9978,
+        "assamese_ra": 0,
+        "bengali_ra": 190,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.0675,
+        "words": 400,
+        "ra_score": -1.0
+      },
+      "text_sample": "\"কেমন লাগছে জেরোমিল? কি মনে হচ্ছে? পছন্দ হয়েছে তোমার?\" ধৈর্য্যের বাধ ভেঙে জিজ্ঞেস করলো মা।\nমেশিনে নয় হাতে ভোট পুনর্গণনার পক্ষে হিলারি\nপুনরুদ্ধার সমর্থ"
+    },
+    {
+      "id": "bn_eval_e1f43502d5a654ee",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 142,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.05864,
+        "words": 324,
+        "ra_score": -1.0
+      },
+      "text_sample": "অবাধ ‘লুটপাটে’ বিদ্যুতের দাম বেড়েছে: বিএনপি\n৯ বছর আগে একটি ছোট কন্নড় ফিল্ম দিয়ে তার ক্যারিয়ার শুরু। তারপর একতার কাপুরের মেগা সিরিয়ালে জায়গা করে নিয়েছ"
+    },
+    {
+      "id": "bn_eval_cb096872df5c9d88",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 151,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.06309,
+        "words": 317,
+        "ra_score": -1.0
+      },
+      "text_sample": "কয়েকদিন আগে ডিজেলের দাম বাড়লো। তখন এক মুরব্বির সাথে গল্পো করছিলাম। উনি বলছিলেন, ডিজেলের দাম বাড়ায় আমার মেয়ের জামায়ের লাভ হয়েছে ১.৫০ কোটি টাকা। দুই জাহ"
+    },
+    {
+      "id": "bn_eval_bdf07bc4f5c58f5e",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 150,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03485,
+        "words": 373,
+        "ra_score": -1.0
+      },
+      "text_sample": "এর আরো উদ্যোগের মধ্যে রয়েছে অপসোসালাইন লিমিটেড, গ্লোবাল ক্যাপসুলস লিমিটেড, গ্লোবাল হেভি কেমিক্যালস লিমিটেড, এবং জকি গার্মেন্টস লিমিটেড।\nবাগারের জন্য:"
+    },
+    {
+      "id": "bn_eval_ccb4d91da6974e48",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 124,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.04692,
+        "words": 341,
+        "ra_score": -1.0
+      },
+      "text_sample": "পুলিশ গিয়ে মরদেহ উদ্ধার করে ময়নাতদন্তের জন্য মর্গে পাঠায়।\nতিনি একজন মেয়ে। কিন্তু নিজের পরিবারের মধ্যে তাঁকে কখনও ছেলে-মেয়ের তফাত নিয়ে কোনও আলোচনা শু"
+    },
+    {
+      "id": "bn_eval_7f80e983d8c0b12e",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 148,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.02326,
+        "words": 301,
+        "ra_score": -1.0
+      },
+      "text_sample": "ঢাকা, ২১ নভেম্বর (ইউএনবি)- চতুর্থ দিনের মতো বুধবারও টেলিযোগাযোগ প্রযুক্তি (অ্যাপ) ব্যবহার করে দলে...\nখড়িবাড়ি: কেন্দ্রের জল জীবন প্রকল্প এবং ১০০দিনের ক"
+    },
+    {
+      "id": "bn_eval_468583b2c920920f",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 0.9821,
+        "assamese_ra": 0,
+        "bengali_ra": 160,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.0463,
+        "words": 324,
+        "ra_score": -1.0
+      },
+      "text_sample": "স্থানীয় এলাকাবাসী জানায়, ২০০৩ সালে কদমতলী খালের উপর এ ব্রিজটি নির্মিত হয়। নির্মাণের মাত্র ১৫ বছরে ব্রিজটি ভেঙে পড়ায় কাজের মান নিয়ে প্রশ্ন উঠেছে।\n'নীল "
+    },
+    {
+      "id": "bn_eval_09fadeca3d63f66d",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 0.8436,
+        "assamese_ra": 0,
+        "bengali_ra": 183,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.04671,
+        "words": 471,
+        "ra_score": -1.0
+      },
+      "text_sample": "পদ: অতিথি প্রশিক্ষক (ইলেকট্রিশিয়ান)\nআমাদের অভিজ্ঞ কাউকে দরকার ছিল। রাউলও অভিজ্ঞ হয়ে উঠছে বছরের পর বছর ধরে। ভবিষ্যতে রিয়াল মাদ্রিদের কোচ হওয়ার মতো সবধর"
+    },
+    {
+      "id": "bn_eval_0c3e082cab83e5fe",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 138,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03955,
+        "words": 354,
+        "ra_score": -1.0
+      },
+      "text_sample": "তিন নম্বরে ব্যাটিং করতে নেমে দুই ম্যাচেই ডাক মারলেও রাব্বির যে সামর্থ আছে সেটাও অবশ্য স্বীকার করলেন নান্নু। তিনি বলেন, 'আমি বলব ছেলেটার মধ্যে অনেক কিছ"
+    },
+    {
+      "id": "bn_eval_64dd1e29100686ec",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 181,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.01524,
+        "words": 328,
+        "ra_score": -1.0
+      },
+      "text_sample": "জিম্মিদের সম্মাননা.\nপ্রকাশ : ২৪ নভেম্বর ২০২১, ১৪:৪৪ আপডেট : ২৫ নভেম্বর ২০২১, ০৯:৩৬\nনয়াদিল্লি:  কংগ্রেসের প্রাক্তন সভানেত্রী সনিয়া গাঁধীর তোপের মুখে এব"
+    },
+    {
+      "id": "bn_eval_25bce8495444421a",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 138,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03916,
+        "words": 332,
+        "ra_score": -1.0
+      },
+      "text_sample": "তিন ইসলামিক গান নিয়ে আরফিন রুমি\nযদুনন্দী ইউনিয়ন আওয়ামী লীগের সাধারণ সম্পাদক মো. আলমগীর মিয়া, ছবি: সমকাল\nমিনিসিপাল অ্যাসোসিয়েশন অব বাংলাদেশ- ম্যাব এর "
+    },
+    {
+      "id": "bn_eval_04bb412273cfe192",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 155,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03988,
+        "words": 326,
+        "ra_score": -1.0
+      },
+      "text_sample": "সুতরাং রায়চৌধুরী সমীকরণের আরেকটি রূপ হলো:\nতবে সেটা কখন জানি না, আর এসব না জেনে সিপিএলের কোন দলকে কথা দেওয়া যায় না। তাতে করে ওই দল বড় সমস্যায় পড়বে।আমি"
+    },
+    {
+      "id": "bn_eval_0d702935468a2b5c",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 153,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.07162,
+        "words": 377,
+        "ra_score": -1.0
+      },
+      "text_sample": "১৯৭১- সালমান শাহ, বাংলাদেশের প্রখ্যাত চিত্রনায়ক। প্রকৃত নাম শাহরিয়ার চৌধুরী ইমন, ১৯৭১ খ্রিস্টাব্দের ১৯ সেপ্টেম্বর সিলেটে জন্ম। টেলিভিশন নাটক দিয়ে অ"
+    },
+    {
+      "id": "bn_eval_1ec1d37c0bca05a3",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 145,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.06069,
+        "words": 379,
+        "ra_score": -1.0
+      },
+      "text_sample": "বিবৃতিতে এই দুঃখজনক সময়ে ইতালি ও এর জনগণের পাশে দাঁড়ানোর কথা ব্যক্ত করা হয়।\nমাদক নেওয়ার ব্যাপারে দীপিকার সরল স্বীকারোক্তি!\nবার্সেলোনার সঙ্গে চুক্তি বা"
+    },
+    {
+      "id": "bn_eval_eb4c824528fa8f3b",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 142,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03593,
+        "words": 334,
+        "ra_score": -1.0
+      },
+      "text_sample": "গড়াপেটায় নাম জড়ানোয় দু’বছর আইপিএলের বাইরে চলে যেতে হয়েছিল চেন্নাইকে। নির্বাসনের শাস্তি কাটিয়ে এবার স্বমহিমায় ধরা দিয়েছে দল। যে দলের নেতা এমএসডি। অতী"
+    },
+    {
+      "id": "bn_eval_ea80b189036ad9ef",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 203,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.02239,
+        "words": 402,
+        "ra_score": -1.0
+      },
+      "text_sample": "দিঘা-বকখালিতে ব্য়াপক জলোচ্ছ্বাস\nসোমবার প্রধান বিচারপতির শপথবাক্য পাঠ করাবেন রাজ্যপাল জগদীপ ধনখড়। উপস্থিত থাকবেন মুখ্যমন্ত্রী মমতা বন্দ্যোপাধ্যায়।\nপ্র"
+    },
+    {
+      "id": "bn_eval_479c4fdaf1bd6d2e",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 174,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.07143,
+        "words": 322,
+        "ra_score": -1.0
+      },
+      "text_sample": "ব্যাস আনেক হল এবার আমার কাজ শেষ, আর আপনার কাজ স্টার্ট, বিসমিল্লাহ বলে আঙ্গুল গুলা চালান শুরু করুন।\nমুক্তচিন্তার ব্লগার ও প্রকাশকদের হত্যার প্রতিবাদে ম"
+    },
+    {
+      "id": "bn_eval_85dd1e80e2cfb6b8",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 167,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.0229,
+        "words": 393,
+        "ra_score": -1.0
+      },
+      "text_sample": "পোর্ট অ প্রিন্স: হাইতিতে বিধ্বংসী ভূমিকম্প। শনিবারের এই প্রবল ভূমিকম্পে মৃত্যু হয়েছে তিনশোর বেশি মানুষের। রিখটার স্কেলে ৭.২ মাত্রার ভূমিকম্পে বহু ঘরবা"
+    },
+    {
+      "id": "bn_eval_ce43ef886eb18a25",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 0.9383,
+        "assamese_ra": 0,
+        "bengali_ra": 151,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.0641,
+        "words": 390,
+        "ra_score": -1.0
+      },
+      "text_sample": "জন কিথ ফ্রেজার (John Keith Fraser; জন্ম: ১৮ ফেব্রুয়ারি, ১৯২২) একজন কানাডিয়ান প্রাকৃতিক ভূগোলবিদ। তিনি \"কানাডিয়ান ভূগোলবিদ পরিষদ\" (\"Canadian Associa"
+    },
+    {
+      "id": "bn_eval_8292b50f02345fec",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 149,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03207,
+        "words": 343,
+        "ra_score": -1.0
+      },
+      "text_sample": "ভারত সফররত সৌদি যুবরাজ মোহাম্মদ বিন সালমানকে প্রথা ভেঙে বিমানবন্দরে উপস্থিত হয়ে আলিঙ্গন করে স্বাগত জানানোয় সমালোচনার মুখে পড়েছেন দেশটির প্রধানমন্ত্রী "
+    },
+    {
+      "id": "bn_eval_6617c25fe23a8ae7",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 163,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03324,
+        "words": 361,
+        "ra_score": -1.0
+      },
+      "text_sample": "মুহাম্মদ আসমতুল্লাহ ( যিনি মৌলভী আসমতুল্লাহ নামেও পরিচিত ) একজন পাকিস্তানি রাজনীতিবিদ যিনি ২০১৮ সালের আগস্টে পাকিস্তানের জাতীয় পরিষদের সদস্য নির্বাচি"
+    },
+    {
+      "id": "bn_eval_fc9586d62ef539ee",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 0.9923,
+        "assamese_ra": 0,
+        "bengali_ra": 147,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.05357,
+        "words": 336,
+        "ra_score": -1.0
+      },
+      "text_sample": "সর্বশেষ এডিট : ২২ শে জুলাই, ২০১০  দুপুর ১:৫৫\nপোশাকের ক্ষেত্রে বিভিন্ন ধরনের ট্রেন্ডি কুর্তি, শর্ট কামিজ, শার্ট বা টি-শার্ট ভালো। লং বেল বটমস এড়িয়ে যাও"
+    },
+    {
+      "id": "bn_eval_444a6c646bd49a7d",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 163,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03503,
+        "words": 314,
+        "ra_score": -1.0
+      },
+      "text_sample": "কাদার ভেতর শিশুর কান্না, খড়ো ঘর, খাড়ি বালির ভেতর\nএ বিষয়ে দেওয়ানগঞ্জ উপজেলা নির্বাহী কর্মকর্তা সুলতানা রাজিয়া জানান সোনালী ব্যাংকের প্রচলিত আইন অনুয"
+    },
+    {
+      "id": "bn_eval_611f6ab128e46106",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 134,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.00289,
+        "bengali_marker_rate": 0.02312,
+        "words": 346,
+        "ra_score": -1.0
+      },
+      "text_sample": "লোডশেডিং তখনই ছিল আগের দিনে- এক জায়গায় বিদ্যুৎ নাই, সেখান থেকে বিদ্যুৎ নিয়ে আরেক জায়গায় দিলাম। এটাকে বলে লোড শেড করা। কিন্তু এখন যেটি হচ্ছে নিরবিচ্ছিন"
+    },
+    {
+      "id": "bn_eval_538359d7fe8ef542",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 123,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.02,
+        "words": 300,
+        "ra_score": -1.0
+      },
+      "text_sample": "শিলিগুড়ি: ফুলবাড়িতে মহানন্দার চরের জঙ্গলে আগুন লাগায় বিপন্ন বিভিন্ন প্রজাতির পাখি। এই এলাকায় ইয়েলো ব্রেস্টেড বান্টিং, বিভিন্ন ধরনের মুনিয়া সহ প্রচুর"
+    },
+    {
+      "id": "bn_eval_5d76410d80d6c862",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 171,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.02105,
+        "words": 380,
+        "ra_score": -1.0
+      },
+      "text_sample": "‘টিম ইন্ডিয়া’ ধারণাটা বোঝা এবং দলের প্রতিটি খেলোয়াড়ের পারফর্ম্যান্স, উন্নতির ধারা; এ সব ব্যাপারে বিস্তারিত ধারণা থাকতে হবে। বিসিসিআইয়ের বিজ্ঞপ্তিতে বল"
+    },
+    {
+      "id": "bn_eval_3559bb7838d189bd",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 163,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03166,
+        "words": 379,
+        "ra_score": -1.0
+      },
+      "text_sample": "কর্মজীবন.\nএকের পর এক মৃত্যু দেশে। প্রয়াত হিমাচল প্রদেশের প্রাক্তন মুখ্যমন্ত্রী তথা কংগ্রেস নেতা বীরভদ্র সিং। মৃত্যুকালে বয়স হয়েছিল ৮৭ বছর। দীর্ঘ রোগভো"
+    },
+    {
+      "id": "bn_eval_0e7331fdda398927",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 0.9342,
+        "assamese_ra": 0,
+        "bengali_ra": 118,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.02941,
+        "words": 306,
+        "ra_score": -1.0
+      },
+      "text_sample": "বেতন ও আনুষঙ্গিক সুযোগ সুবিধা বাড়ানোর দাবিতে জ্বালানি বহনকারী লড়ি চালক ও জ্বালানি শোধনাগার কর্মীদের টানা অবরোধে অনেকটাই স্থবির হয়ে পড়েছে পর্তুগালে"
+    },
+    {
+      "id": "bn_eval_7a066a0aa8ffce76",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 0.9866,
+        "assamese_ra": 0,
+        "bengali_ra": 175,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.05808,
+        "words": 396,
+        "ra_score": -1.0
+      },
+      "text_sample": "অনেক ধন্যবাদ আপু আপনার মন্তব্যের জন্য- ভাল থাকুন, সুস্থ্য থাকুন।\nপরমাণু কেন্দ্রের নজরদারি ক্যামেরা নিয়ে সমঝোতায় পৌঁছেছে ইরান ও আইএইএ\nমূলত শিক্ষক সংকটে"
+    },
+    {
+      "id": "bn_eval_05c9083fb849e2e7",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 162,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03155,
+        "words": 317,
+        "ra_score": -1.0
+      },
+      "text_sample": "ইলিনয় অঙ্গরাজ্যে এখন পর্যন্ত তিন হাজার ৪৯১ জন করোনাভাইরাসে আক্রান্ত হিসেবে শনাক্ত হয়েছেন। তার মধ্যে ৪৭ জন মারা গেছেন। আক্রান্তদের মধ্যে ৪৩ জনের অবস্থা"
+    },
+    {
+      "id": "bn_eval_27605f0f27d0024a",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 0.9857,
+        "assamese_ra": 0,
+        "bengali_ra": 159,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03175,
+        "words": 315,
+        "ra_score": -1.0
+      },
+      "text_sample": "মার্কিন মুলুকে মাত্র ১ শতাংশ ডাক্তার জিরিয়াট্রিক মেডিসিনে ক্যারিয়ার করার জন্য বর্তমানে আগ্রহী। অর্থাৎ সেখানে জিরিয়াট্রিশিয়ানের সংকট বিদ্যমান। আর আমাদে"
+    },
+    {
+      "id": "bn_eval_61069dc94d7f5f68",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 148,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.02744,
+        "words": 328,
+        "ra_score": -1.0
+      },
+      "text_sample": "দ্বিতীয় দিনের খেলা শেষে অস্ট্রেলিয়ার সংগ্রহ ৯ উইকেটে ২৪৫ রান। টিম পেইন ৩৩ ও জশ হেইজেলউড ১ রানে ব্যাট করছেন।\n২) ওয়েস্ট ইন্ডিজ থেকে ওয়ার্নের সেরা বাজি -"
+    },
+    {
+      "id": "bn_eval_297e7c1c6096200d",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 147,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.01796,
+        "words": 334,
+        "ra_score": -1.0
+      },
+      "text_sample": "অনুষ্ঠানের মধ্যমণি হাসান ইমাম বলেন, ‘আমি মানুষের যে পরিমাণ ভালোবাসা পেয়েছি, জীবনে আর কিছু পাওয়ার নেই। অনেক পেশা আছে যেখানে পরিশ্রম বেশি, কিন্তু আমাদের"
+    },
+    {
+      "id": "bn_eval_56411486c1d313bc",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 0.9903,
+        "assamese_ra": 0,
+        "bengali_ra": 182,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.05538,
+        "words": 325,
+        "ra_score": -1.0
+      },
+      "text_sample": "আরেক টুইটে মোদি বলেন, বাজপেয়ির সঙ্গে আমার অসংখ্য স্মৃতি। তার মৃত্যু আমার জন্য অপূরণীয় ক্ষতি। তিনি আমার কাছে কারায়াকারতাসের(Karyakartas) মতো  অনুপ্রেরণ"
+    },
+    {
+      "id": "bn_eval_232e34279cbc91eb",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 179,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03712,
+        "words": 431,
+        "ra_score": -1.0
+      },
+      "text_sample": "ক্যারিবীয়দের পতন হওয়া আট উইকেটের দুটি করে নিয়েছেন রুবেল হোসেন, মেহেদি হাসান রানা এবং নাজমুল ইসলাম। মাশরাফি বিন মর্তুজা ও শামিম পাটোয়ারির শিকার একটি কর"
+    },
+    {
+      "id": "bn_eval_130673b65302a140",
+      "truth": "bengali",
+      "predicted": "bengali",
+      "evidence": {
+        "script_ratio": 1.0,
+        "assamese_ra": 0,
+        "bengali_ra": 139,
+        "assamese_wa": 0,
+        "assamese_marker_rate": 0.0,
+        "bengali_marker_rate": 0.03604,
+        "words": 333,
+        "ra_score": -1.0
+      },
+      "text_sample": "এই বাওড়টি আনুমানিক আটশো বছর বা তারও পূর্বে বেতনা নদী হতে সৃষ্টি হয়। এটি একই সাথে ঝিনাইদহ জেলার মহেশপুর ও যশোর জেলার চৌগাছা উপজেলার মধ্যবর্তী পুড়াপা"
+    }
+  ]
+}

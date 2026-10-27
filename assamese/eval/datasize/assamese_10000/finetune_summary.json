@@ -1,0 +1,9 @@
+{
+  "steps": 939,
+  "epochs": 3,
+  "best_exact_match": 0.41953125,
+  "final_val_loss": 0.18427529856562613,
+  "final_exact_match": 0.41953125,
+  "total_minutes": 0.8,
+  "train_examples": 10000
+}

@@ -1,0 +1,142 @@
+{
+  "language": "assamese",
+  "source": "books",
+  "elapsed_seconds": 1251.6,
+  "overall": {
+    "stage": "assamese:books",
+    "docs_in": 1451,
+    "docs_out": 1425,
+    "docs_removed": 26,
+    "words_in": 55871895,
+    "words_out": 48726475,
+    "word_retention": 0.872110655992606,
+    "drops": {},
+    "corrupted_shards": []
+  },
+  "normalize_drops": {},
+  "language_filter_drops": {
+    "paragraph_filter:paragraphs_removed": 1437,
+    "paragraph_filter:document_dropped": 10
+  },
+  "quality": {
+    "drops": {
+      "quality:line_structure_wordlist": 11,
+      "quality:symbol_heavy": 4,
+      "quality:too_long": 1
+    },
+    "detail": {
+      "rejects": {
+        "line_structure_wordlist": 11,
+        "symbol_heavy": 4,
+        "too_long": 1
+      },
+      "total_rejected": 16,
+      "samples": {
+        "line_structure_wordlist": [
+          {
+            "id": "as_books_35687eca29d662fc",
+            "title": "Chetana",
+            "excerpt": "ৰাজ\n\n6 সিননলিদ্ষলল্ল:এ=চে.ডডে ললে ত\n188888888888885|\n\nম্া\nপু 7.\n\n3 ম্দ ডু\nণ ঞ্ভা\nলৰ\n৷ ॥:ত্ লী\n|\n\n৷ বা শম\n\nক্ষ},\n\n10\nৰ)\n\nম018\n\n__, নীল\n\nচুজুং-\nত\n\nৰণ, ী} ন |\nণ। | ৰ) 0 ৷\nপিন % 3 \"ত 4\n\nবাণীকান্ত বক্ৱা\n\nনলে েভাচিটো সা\nৰ লখি\n1) =\" 98%\n1 ঠাল\n\nসযমণা'ণ\n\nযিসকল শ্বহীদ হ'ল __\nঅস্তিত্ব আন্দোলনত\n\nযি সকলে কাম কৰি"
+          },
+          {
+            "id": "as_books_a40c72e215a61661",
+            "title": "Abhimanyu Badh Kabya Part 1",
+            "excerpt": "প্ৰকাশক *\n\nজোনাকী প্ৰকাশ £ গুৱাহাটী\nপ্ৰকাশন পৰিষদৰ\n\nআধিক সাহায্যত\n\nপ্ৰথম প্রকাশ +\n\nইং 1875 চন ( 1797 শক )\nদ্বিতীয় প্ৰকাশ :\n\nইং 1971 চন\n\nমূল্য 2 চাৰি টক]\n\nছপ| কৰোতা ?\nশভ্ৰীকালচৰণ পাল\nনবজঁীৱন পোছ\n66 গো ষ্টাট\nকপিকতা”6\n\nপথ্য তাঙৰণৰ অনুলিপি £\n\nগোয়'লপাৰ!\n\nহুম। আৰু ভাল মলিয়| হলে বেয়| ফুলৰ পৰাও চিকন ঢাক"
+          },
+          {
+            "id": "as_books_5db504517365d162",
+            "title": "Deuri Sabdamala",
+            "excerpt": "(দষটৰী শবয়োল।\n\nষ্ী) ); \"7\nন , আগ | ৷\n\nসম্পাদক\nডন্ুঁৰ উপেল্দ্ৰৱাণ্ৰ গোস্বামী\n\nমম গাহিট্া) গজ|\n\n== = া-- = ৰ 2-=- আৱ\" সা *\n\n/441 54সই811%73 5স90173, এ0৷|৷4[=785001. 11410, 1981.\n\n5) অসম সাহিত্য সভা\n\nপ্রকাশক 3\n\nনগেন শইকীয়া]\nগধান সম্পাপক, অসম সাহিত্য সভা\nচন্দ্রকান্ধ সন্দিকৈ ভৱন, বোৰহাট--1\n\nপ্রকাশকান ঃ"
+          }
+        ],
+        "symbol_heavy": [
+          {
+            "id": "as_books_a27761cecb162b97",
+            "title": "Emuthi Borgeetor Swaralipi",
+            "excerpt": "গলুভনমিন৷\n\nনাঘ্মু চে\n$\n\nভব অঞ্স্্=\nঃ'\n\nর ৷ ঢল\n\nএঞমাভাগানন- ভদাখ হে তপ জাজ ত] |\n\nণ্>\nজখগপনকে লা ব্ৰা”ঁ কাকততে পঙ্ক\n\n?\nস্ব” =\nযত ত 1: প্বনীৱ অৰীচননতে ভজ্বনত \"তখা(্তঁ শস্দূ কীছবুূতছ +\n\nকেম্প দাক স্ৰসেখত ছঘতিময়ী” দূত ৰ\n\nসুমুল্বাদ্দা ললচোগল 9 16 ঠুত'চাসমযসা 4 8] হক ঢে\nঅলস্স্স্স্দ্দ্ম\n\n+) জু\n\nবনৰয়েযাজৰ।"
+          },
+          {
+            "id": "as_books_0c87c3560687b448",
+            "title": "Bezbaruahar Dinalekha Vol 2",
+            "excerpt": "ৱ চণ ূ\n&\n8 21\nৰু\nডৰ\n, (ঠাৰ\nৰ গ)\nৰু - ॥\n\nডু\n\nত %\n\nবেজবৰুৰাৰ দিনমেখ।\n\nলক্ষ্মীনাথ বেজবৰুৱাৰ ডায়েৰি\n\nদ্বিতায় খণ্ড\n\nসংকলয়িতা-সম্পাদক\nডক্টৰ মহেশ্বৰ নেওগ\n\nঅধ্যাপক, গুৱাহাটী বিশ্ববিদ্যালয়\n\nজনম সাহচিকত্য সলশ্ল৷\nচন্দ্ৰকান্ত সন্দিকৈ ভৱন\nযোৰহাট * জঅসম\n\n[লো\nদে 1:213219%82\nন\n\nলৰ\nনৰ ৰদ র\nদৌৰ সই\n\nবেটুপাভৰ পৰিকল"
+          },
+          {
+            "id": "as_books_1575a75c7ed5eea0",
+            "title": "Printable Assamese Gospel Tract Prisoner's Hope",
+            "excerpt": "বিশ্বাসেৰে ই্শ্বৰক এই প্ৰাৰ্থনা কওঁক:\n\nপ্ৰভু যীচু, মোৰ প্ৰতি আপোনাৰ মহান প্ৰেমৰ বাবে আপোনাক\nবহুত ধন্যবাদ। মই ষীকাৰ কৰোঁ যে মই এজন পাপী আৰু মই\nক্ষমা বিচাৰো৷ মোৰ পাপৰ বাবে জৰিমনা পৰিশোধ কৰিবলৈ\nক্ৰুছত মৃত্যু হোৱাৰ বাবে আপোনাক ধন্যবাদ। মই মৃতকৰ পৰা\nআপোনাৰ পুনৰুণ্খানত বিশ্বাস কৰো৷ এতিয়াৰ পৰা, মই\nআপোনাক "
+          }
+        ],
+        "too_long": [
+          {
+            "id": "as_books_c42e74d4dbdb6238",
+            "title": "Shabda Kalpadruma ( Bengali) Anandamayi Book Collection",
+            "excerpt": "উহ\n\nকু\n\n5)\nx\n৷৷৷\n02\n=\n>\nএল)\nDD\n=\n2\n=\n=\n[rE\n+\n0\n2\n=\n>\nডে\nছে\n09\n73\n[=\nচে\n2\n0)\n[=\nঢে\n2\n[0]\n>\n2\n\"=\n2\nডে\nএ\n=,\n2)\n[a]\n\nৰ\n\nনা\n\nস্ব\n\n[ ভক্ুসয়ং বৰ্ণ: স্বয়ং” প্রকৃতির্লপিনী | ইতি তি\n+ কামধেনুতন্রম্‌!\n* অ(অব+ড-ঘে)\n\n,.. ইতি. কবিকরক্েসদলাত | স্বন্ধঃ|| , ইতি:\n\nSD ৰ 182: '_ অংহিঃ\n\nংসুমালী (অংশু-মাঁলা4-ইন্)\n[ন্‌]"
+          }
+        ]
+      }
+    }
+  },
+  "nonlang": {
+    "drops": {},
+    "detail": {
+      "counts": {
+        "words_removed": 200042,
+        "sentences_dropped": 2206
+      },
+      "distinct_tokens_removed": 38173,
+      "total_tokens_removed": 209478,
+      "top_removed": {
+        "ate": 2053,
+        "Fal": 1150,
+        "fea": 1072,
+        "ata": 1015,
+        "the": 983,
+        "fee": 900,
+        "Bal": 827,
+        "sal": 823,
+        "eee": 810,
+        "aie": 770,
+        "wal": 751,
+        "aaa": 749,
+        "PHONE": 711,
+        "cata": 704,
+        "faa": 686,
+        "sai": 671,
+        "See": 617,
+        "fae": 545,
+        "aes": 537,
+        "aay": 531,
+        "are": 501,
+        "eae": 472,
+        "Shri": 466,
+        "fra": 461,
+        "cate": 424,
+        "aia": 420,
+        "fas": 389,
+        "wae": 387,
+        "eal": 387,
+        "not": 382,
+        "wee": 373,
+        "Bel": 371,
+        "and": 369,
+        "wat": 357,
+        "ates": 354,
+        "afer": 350,
+        "cafe": 349,
+        "ats": 343,
+        "AAT": 331,
+        "aga": 329,
+        "feat": 328,
+        "wie": 316,
+        "age": 308,
+        "ale": 300,
+        "fare": 288,
+        "abl": 282,
+        "ais": 277,
+        "abi": 274,
+        "for": 273,
+        "tal": 268
+      }
+    }
+  }
+}

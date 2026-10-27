@@ -1,0 +1,24 @@
+{
+  "train": {
+    "docs": 824317,
+    "words": 373902951,
+    "tokens": 591255819,
+    "manual_tokens": 141178394,
+    "downloaded_tokens": 450077425
+  },
+  "val": {
+    "docs": 10984,
+    "words": 5212836,
+    "tokens": 8350610,
+    "manual_tokens": 2274772,
+    "downloaded_tokens": 6075838
+  },
+  "test": {
+    "docs": 11047,
+    "words": 5121933,
+    "tokens": 8158501,
+    "manual_tokens": 2233481,
+    "downloaded_tokens": 5925020
+  },
+  "elapsed_seconds": 1060.7
+}

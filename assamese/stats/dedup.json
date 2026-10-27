@@ -1,0 +1,22 @@
+{
+  "language": "assamese",
+  "docs_in": 929935,
+  "words_in": 436924957,
+  "exact_duplicates_removed": 29915,
+  "paragraph_dedup": {
+    "distinct_paragraphs_seen": 2266746,
+    "boilerplate_paragraphs": 76,
+    "paragraphs_dropped": 2882,
+    "documents_emptied": 0
+  },
+  "near_duplicate": {
+    "documents_hashed": 900017,
+    "duplicate_ids_skipped": 3,
+    "clusters_found": 41679,
+    "documents_dropped": 53669,
+    "cache_hits": 899592
+  },
+  "docs_out": 846348,
+  "words_out": 384237720,
+  "word_retention": 0.8794
+}

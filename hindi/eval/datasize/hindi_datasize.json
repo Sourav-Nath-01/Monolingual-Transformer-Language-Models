@@ -1,0 +1,38 @@
+{
+  "5000": {
+    "exact_match": 0.466,
+    "chance": 0.45125,
+    "by_task": {
+      "compare2": 0.49125,
+      "order3": 0.3264957264957265,
+      "transitive": 0.5658536585365853
+    }
+  },
+  "10000": {
+    "exact_match": 0.595,
+    "chance": 0.45125,
+    "by_task": {
+      "compare2": 0.5025,
+      "order3": 0.3333333333333333,
+      "transitive": 0.9642276422764228
+    }
+  },
+  "20000": {
+    "exact_match": 0.7875,
+    "chance": 0.45125,
+    "by_task": {
+      "compare2": 0.94875,
+      "order3": 0.6239316239316239,
+      "transitive": 0.7333333333333333
+    }
+  },
+  "40000": {
+    "exact_match": 0.846,
+    "chance": 0.45125,
+    "by_task": {
+      "compare2": 0.96,
+      "order3": 0.5282051282051282,
+      "transitive": 1.0
+    }
+  }
+}

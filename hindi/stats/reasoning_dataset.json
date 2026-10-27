@@ -1,0 +1,114 @@
+{
+  "train": {
+    "language": "hindi",
+    "split": "train",
+    "examples": 40000,
+    "tasks": {
+      "compare2": 16063,
+      "order3": 12038,
+      "transitive": 11899
+    },
+    "templates": {
+      "hi_c2_b": 7943,
+      "hi_tr_b": 5949,
+      "hi_c2_a": 8120,
+      "hi_o3_b": 6003,
+      "hi_o3_a": 6035,
+      "hi_tr_a": 5950
+    },
+    "distinct_entities": {
+      "names": 50,
+      "objects": 24
+    },
+    "duplicate_prompts_skipped": 55,
+    "mean_prompt_chars": 106.5
+  },
+  "val": {
+    "language": "hindi",
+    "split": "val",
+    "examples": 2000,
+    "tasks": {
+      "compare2": 810,
+      "order3": 582,
+      "transitive": 608
+    },
+    "templates": {
+      "hi_c2_a": 415,
+      "hi_c2_b": 395,
+      "hi_tr_b": 285,
+      "hi_tr_a": 323,
+      "hi_o3_a": 311,
+      "hi_o3_b": 271
+    },
+    "distinct_entities": {
+      "names": 50,
+      "objects": 24
+    },
+    "duplicate_prompts_skipped": 0,
+    "mean_prompt_chars": 106.5
+  },
+  "test": {
+    "language": "hindi",
+    "split": "test",
+    "examples": 2000,
+    "tasks": {
+      "compare2": 800,
+      "order3": 585,
+      "transitive": 615
+    },
+    "templates": {
+      "hi_c2_test": 800,
+      "hi_o3_test": 585,
+      "hi_tr_test": 615
+    },
+    "distinct_entities": {
+      "names": 50,
+      "objects": 24
+    },
+    "duplicate_prompts_skipped": 1,
+    "mean_prompt_chars": 108.1
+  },
+  "test_unseen": {
+    "language": "hindi",
+    "split": "test_unseen",
+    "examples": 1000,
+    "tasks": {
+      "compare2": 406,
+      "order3": 305,
+      "transitive": 289
+    },
+    "templates": {
+      "hi_o3_b": 150,
+      "hi_c2_a": 213,
+      "hi_o3_a": 155,
+      "hi_tr_b": 147,
+      "hi_c2_b": 193,
+      "hi_tr_a": 142
+    },
+    "distinct_entities": {
+      "names": 8,
+      "objects": 6
+    },
+    "duplicate_prompts_skipped": 5,
+    "mean_prompt_chars": 113.1
+  },
+  "leakage_controls": {
+    "mechanism": "held-out relation patterns",
+    "note": "Entity names are shared across train/val/test deliberately. An earlier design gave each split disjoint names; because the answer is always an entity, that trained the model to emit one set of tokens and scored it on another, and validation loss rose 4.2 -> 15.4 while training loss fell to 0.75. Leakage is blocked by held-out templates instead, the alternative the spec names.",
+    "held_out_templates": [
+      "hi_c2_test",
+      "hi_o3_test",
+      "hi_tr_test"
+    ],
+    "shared_entity_pool": {
+      "names": 50,
+      "objects": 24
+    },
+    "generalisation_probe": {
+      "split": "test_unseen",
+      "purpose": "entities never seen in training, to measure whether the model selects from the prompt or memorises which tokens are plausible answers",
+      "names": 8,
+      "objects": 6
+    }
+  }
+}

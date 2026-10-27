@@ -1,0 +1,266 @@
+# Provenance record for every source that entered either final corpus.
+#
+# Lecture 3 slide 25: "Record provenance — source, licence, date, filters
+# applied. Take licenses associated with the text seriously. Crawled text is
+# not necessarily redistributable."
+#
+# This file is a graded deliverable in disguise: spec §1.2 requires reporting
+# "size, sources, cleaning steps, manual fraction".
+#
+# RULES
+#   - collection_method is exactly "manual" or "downloaded".
+#       manual     = we fetched from the primary source and did our own
+#                    extraction/cleaning (own scrapers, Wikimedia XML dumps
+#                    parsed with our extractor, PDFs/scans we OCR'd).
+#       downloaded = someone else's pre-extracted, pre-cleaned corpus.
+#   - docs_final / words_final are measured directly on the TRAIN split of
+#     the final deduped corpus (data/<lang>/clean_deduped, filtered to
+#     train.ids) -- post-cleaning, post-dedup, post-split, per source. Not
+#     raw collection counts, and not a whole-corpus (train+val+test) figure.
+#   - words_final is a word count, not a token estimate. An earlier version
+#     of this project used a calibration fertility (1.463 Hindi, 1.688
+#     Assamese, from an early throwaway tokenizer) to project token counts
+#     per source -- that proxy was found to meaningfully overstate real
+#     fertility once the actual selected tokenizers were trained and used to
+#     count exactly (real fertility: 1.231 Hindi @32k, 1.472 Assamese @24k;
+#     see PHASE1_PLAN.md §0.3 finding 21). The report's headline token totals
+#     use the exact per-document tokenizer count, aggregated by source's
+#     collection_method (manual vs downloaded), not a per-source proxy
+#     multiplication -- do not multiply words_final by fertility to get a
+#     per-source token count, it will reproduce the same error.
+#   - retrieved dates are read back from the Doc.retrieved field actually
+#     stamped at collection time, not reconstructed from memory.
+
+hindi:
+  manual:
+    - name: hiwiki-dump
+      url: https://dumps.wikimedia.org/hiwiki/latest/
+      licence: CC-BY-SA-4.0
+      retrieved: "2026-08-14"
+      method: own wikitext extractor over official XML dump, namespace 0
+      filters_applied: [normalize, language_id, quality_heuristics, nonlang_words, machine_translation_exclusion, dedup]
+      docs_final: 78614
+      words_final: 35721960
+
+    - name: hiwikisource-dump
+      url: https://dumps.wikimedia.org/hiwikisource/latest/
+      licence: CC-BY-SA-4.0
+      retrieved: "2026-08-14"
+      method: own wikitext extractor, ProofreadPage namespace 250 (book text lives here, not ns0)
+      filters_applied: [normalize, paragraph_language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 572
+      words_final: 31637346
+
+    - name: news-livehindustan
+      url: https://www.livehindustan.com
+      licence: unknown -- crawled text, not redistributed raw (cleaned derivative only)
+      retrieved: "2026-08-14"
+      method: own sitemap-based scraper (common/scrape.py), politeness-rate-limited
+      filters_applied: [normalize, language_id, boilerplate_dateline_stripping, quality_heuristics, nonlang_words, dedup]
+      docs_final: 41634
+      words_final: 14604186
+
+    - name: news-prabhatkhabar
+      url: https://www.prabhatkhabar.com
+      licence: unknown -- crawled text, not redistributed raw
+      retrieved: "2026-08-15"
+      method: own sitemap-based scraper
+      filters_applied: [normalize, language_id, boilerplate_dateline_stripping, quality_heuristics, nonlang_words, dedup]
+      docs_final: 2454
+      words_final: 1231289
+
+    - name: news-jagran
+      url: https://www.jagran.com
+      licence: unknown -- crawled text, not redistributed raw
+      retrieved: "2026-08-14"
+      method: own sitemap-based scraper
+      filters_applied: [normalize, language_id, boilerplate_dateline_stripping, quality_heuristics, nonlang_words, dedup]
+      docs_final: 2441
+      words_final: 1162440
+
+    - name: archive-org-books-hindi
+      url: https://archive.org (language:Hindi facet)
+      licence: per-item, mostly public-domain (pre-1928 or explicitly PD-marked)
+      retrieved: "2026-08-14"
+      method: own OCR-text-layer collector (common/archive_books.py), fetches existing text layer not raw scans
+      filters_applied: [normalize, paragraph_language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 82
+      words_final: 3594116
+
+  downloaded:
+    - name: sangraha-hindi-verified
+      url: https://huggingface.co/datasets/ai4bharat/sangraha
+      licence: see ai4bharat/sangraha on HuggingFace
+      retrieved: "2026-08-18"
+      method: HF datasets streaming, verified config only (unverified never needed -- verified alone exceeded the draw target). synthetic config never used (TA ruling). Redrawn once at a higher raw cap (400M words, was 345M) after the fertility-proxy correction showed the first draw left Hindi short of 500M on exact tokenizer counts (PHASE1_PLAN.md §0.3 finding 21).
+      filters_applied: [normalize, language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 863219
+      words_final: 365528626
+
+  # Nothing excluded for Hindi -- real ratio headroom meant no trim was ever needed.
+  excluded_after_evaluation: []
+
+assamese:
+  manual:
+    - name: aswiki-dump
+      url: https://dumps.wikimedia.org/aswiki/latest/
+      licence: CC-BY-SA-4.0
+      retrieved: "2026-08-14"
+      method: own wikitext extractor over official XML dump
+      filters_applied: [normalize, language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 20468
+      words_final: 7024115
+
+    - name: aswikisource-dump
+      url: https://dumps.wikimedia.org/aswikisource/latest/
+      licence: CC-BY-SA-4.0
+      retrieved: "2026-08-14"
+      method: own wikitext extractor, ProofreadPage namespace 104
+      filters_applied: [normalize, paragraph_language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 676
+      words_final: 8942630
+
+    - name: news-asomiyapratidin
+      url: https://asomiyapratidin.in
+      licence: unknown -- crawled text, not redistributed raw
+      retrieved: "2026-08-14"
+      method: own sitemap-based scraper, complete crawl 2018-06 to 2026-08 (the only Assamese news domain, of 20+ probed, with a workable sitemap and real volume)
+      filters_applied: [normalize, language_id, boilerplate_dateline_stripping, quality_heuristics, nonlang_words, dedup]
+      docs_final: 75292
+      words_final: 17087113
+
+    - name: news-xahitya-own-scrape
+      url: https://xahitya.org
+      licence: unknown -- crawled text, not redistributed raw
+      retrieved: "2026-08-17"
+      method: own sitemap-based scraper (common/scrape.py's SiteScraper, same class as the news sources above), collected independently of the pre-packaged xahitya-assamese-corpus dataset below -- this independent collection is what makes it manual rather than downloaded (course ruling)
+      filters_applied: [normalize, language_id, boilerplate_stripping, quality_heuristics, nonlang_words, dedup]
+      docs_final: 4370
+      words_final: 3097060
+      note: >
+        Overlaps the downloaded xahitya-assamese-corpus dataset (same site);
+        wherever they collided, deduplication's lowest-id-wins survivor rule
+        preferentially kept this manual copy, converting most of that
+        dataset's contribution into manual credit (see report §6).
+
+    - name: archive-org-books-assamese
+      url: "archive.org (language:Assamese facet, 2,576 items -- fully processed)"
+      licence: per-item, mostly public-domain
+      retrieved: "2026-08-14"
+      method: own OCR-text-layer collector
+      filters_applied: [normalize, paragraph_language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 869
+      words_final: 22010099
+
+    - name: archive-org-books-assamese-iso-code
+      url: "archive.org (language:asm facet -- reports 15,385 items via numFound, but the endpoint's own deep pagination (page=N) silently truncates results well before that count on this query; ~6,000-6,200 items were actually reachable across two collection sessions, see PHASE1_PLAN.md §0.3 finding 21)"
+      licence: per-item, mostly public-domain; includes Assam Government Gazette legal notices, school textbooks, magazines
+      retrieved: "2026-08-18"
+      method: own OCR-text-layer collector, same code as above with the ISO-code facet. Resumed across two sessions this project (finding 15's original fix, then a second push this round for manual growth to close the 500M gap after the fertility-proxy correction).
+      filters_applied: [normalize, paragraph_language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 520
+      words_final: 25237552
+
+  downloaded:
+    - name: sangraha-assamese-verified
+      url: https://huggingface.co/datasets/ai4bharat/sangraha
+      licence: see ai4bharat/sangraha on HuggingFace
+      retrieved: "2026-08-16"
+      method: HF datasets streaming, verified config. Naturally exhausted (157.46M raw words is the entire non-synthetic Assamese supply -- word cap was never reached). synthetic never used.
+      filters_applied: [normalize, language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 267752
+      words_final: 116924003
+
+    - name: sangraha-assamese-unverified
+      url: https://huggingface.co/datasets/ai4bharat/sangraha
+      licence: see ai4bharat/sangraha on HuggingFace
+      retrieved: "2026-08-16"
+      method: HF datasets streaming, unverified config -- Sangraha's own lowest-priority tier, small. Excluded from the corpus in an earlier round's trim (when manual's ceiling was lower); re-included once manual growth this round raised the ceiling enough to safely carry it again.
+      filters_applied: [normalize, language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 5924
+      words_final: 1858910
+
+    - name: indiccorp-v2-assamese
+      url: https://huggingface.co/datasets/ai4bharat/IndicCorpV2
+      licence: CC0 (see dataset card)
+      retrieved: "2026-08-16"
+      method: own streaming collector (common/indiccorp_v2.py) over the flat as.txt source, batched into pseudo-documents (source is one-sentence-per-line, not document-segmented)
+      filters_applied: [normalize, language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 181446
+      words_final: 64683120
+
+    - name: assamese-monolingual-csv
+      url: https://huggingface.co/datasets/MWirelabs/assamese-monolingual-corpus
+      licence: see dataset card on HuggingFace
+      retrieved: "2026-08-17"
+      method: own streaming CSV collector (common/assamese_mono_csv.py), batched into pseudo-documents. Verified genuine (sampled real news-derived prose) before use. Measured 97.2% dedup survival -- the most valuable single downloaded addition of the expansion rounds.
+      filters_applied: [normalize, language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 102364
+      words_final: 35747480
+
+    - name: glot500-assamese-indiccorp-tag
+      url: https://huggingface.co/datasets/cis-lmu/Glot500
+      licence: per-subcorpus, see Glot500 dataset card
+      retrieved: "2026-08-16"
+      method: own streaming collector (common/glot500.py), filtered to the "Indiccorp" sub-tag. Measured 99.9%+ dedup survival across multiple rounds despite sharing a name with IndicCorpV2 -- genuinely distinct content, not a repackaging, confirmed by direct measurement not assumption.
+      filters_applied: [normalize, language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 81533
+      words_final: 27819277
+
+    - name: glot500-assamese-other-tags
+      url: https://huggingface.co/datasets/cis-lmu/Glot500
+      licence: per-subcorpus, see Glot500 dataset card
+      retrieved: "2026-08-16"
+      method: own streaming collector (common/glot500.py), the eight smaller Assamese sub-tags -- Oscar22, Wikipedia, CC100, mtdata, Leipzig_wikipedia, Leipzig_community, Earthlings, wiki -- grouped as one entry since each is individually small. Excluded from the corpus in an earlier round's trim (when manual's ceiling was lower); re-included once manual growth this round raised the ceiling enough to safely carry them again.
+      filters_applied: [normalize, language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 49774
+      words_final: 16716300
+
+    - name: madlad-400-assamese-clean
+      url: https://huggingface.co/datasets/allenai/MADLAD-400
+      licence: ODC-BY (see dataset card)
+      retrieved: "2026-08-17"
+      method: own streaming collector (common/madlad.py), "clean" config. Excluded from the corpus in an earlier round's trim (when manual's ceiling was lower); re-included once manual growth this round raised the ceiling enough to safely carry it again.
+      filters_applied: [normalize, language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 26376
+      words_final: 22124939
+
+    - name: madlad-400-assamese-noisy
+      url: https://huggingface.co/datasets/allenai/MADLAD-400
+      licence: ODC-BY (see dataset card)
+      retrieved: "2026-08-17"
+      method: own streaming collector (common/madlad.py), "noisy" config. Measured to have lost ~79% of its raw content to deduplication already (net survivors here from ~20.8M raw) -- genuinely low marginal value, kept anyway once manual growth removed the need to trim it out.
+      filters_applied: [normalize, language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 6486
+      words_final: 4238840
+
+    - name: xahitya-assamese-corpus-downloaded
+      url: https://huggingface.co/datasets/Ranjit89/xahitya-assamese-corpus
+      licence: see dataset card on HuggingFace
+      retrieved: "2026-08-17"
+      method: HF datasets streaming (common/xahitya.py). Largely superseded by the manual xahitya.org scrape above (news-xahitya-own-scrape) -- most of this dataset's unique content was absorbed into the manual copy via deduplication's survivor-selection rule (lowest id wins); what remains here is the residual, non-overlapping fraction.
+      filters_applied: [normalize, language_id, quality_heuristics, nonlang_words, dedup]
+      docs_final: 467
+      words_final: 391513
+
+  # Nothing excluded in the true final corpus -- manual growth this round
+  # (archive-org-books-assamese-iso-code) raised the achievable ceiling
+  # (manual / 0.20) enough that every downloaded source drawn and measured
+  # across the project could be safely re-included. Earlier rounds did trim
+  # sources out at this point in the file; see PHASE1_PLAN.md §0.3 findings
+  # 17-18 for that history and finding 21 for why it was reversed.
+  excluded_after_evaluation: []
+
+# Evaluation only. MUST NOT enter either train split (plan §3.4).
+# Samanantar en-hi and en-as joined on the shared English sentence gives
+# genuinely parallel hi/as content for the fertility comparison.
+# STATUS: not yet built -- planned for the tokenizer fertility-comparison
+# writeup, not required for the core Phase 1 deliverables.
+eval_parallel:
+  - name: samanantar-hi-as-pivot
+    url: https://huggingface.co/datasets/ai4bharat/samanantar
+    licence: see dataset card on HuggingFace
+    retrieved: null
+    method: en-hi and en-as sides joined on identical English source sentence
+    used_for: fertility / bytes-per-token comparison only
+    asserted_disjoint_from_train: false   # flip to true once built and verified

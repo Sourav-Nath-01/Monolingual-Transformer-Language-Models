@@ -1,0 +1,30 @@
+{
+  "language": "hindi",
+  "source": "books",
+  "elapsed_seconds": 0.0,
+  "overall": {
+    "stage": "hindi:books",
+    "docs_in": 0,
+    "docs_out": 0,
+    "docs_removed": 0,
+    "words_in": 0,
+    "words_out": 0,
+    "word_retention": null,
+    "drops": {},
+    "corrupted_shards": []
+  },
+  "normalize_drops": {},
+  "language_filter_drops": {},
+  "quality": {
+    "drops": {},
+    "detail": {
+      "rejects": {},
+      "total_rejected": 0,
+      "samples": {}
+    }
+  },
+  "nonlang": {
+    "drops": {},
+    "detail": {}
+  }
+}

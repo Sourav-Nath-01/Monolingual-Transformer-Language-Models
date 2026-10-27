@@ -1,0 +1,115 @@
+# ---------------------------------------------------------------------------
+# Corpus data. Never committed — see README "What lives where".
+# Large artifacts go to Google Drive; links are in the README.
+# ---------------------------------------------------------------------------
+data/
+*.jsonl
+*.jsonl.zst
+*.zst
+*.gz
+*.bz2
+*.xml
+*.warc
+
+# Raw scrape output and OCR intermediates
+**/raw/
+**/cache/
+*.html
+
+# ---------------------------------------------------------------------------
+# Deliberately NOT ignored (these are graded and must be committed):
+#   */tokenizer/*.model   SentencePiece model, ~1 MB
+#   */tokenizer/*.vocab   vocabulary, plain text
+#   */splits/val.ids      split manifests, small (~0.4-1.2 MB)
+#   */splits/test.ids     split manifests, small (~0.4-1.2 MB)
+#   */stats/*.json|*.csv  statistics
+#   report/phase1_report.pdf  the graded report itself
+# train.ids is NOT committed -- see rule below. It is regenerable (train =
+# corpus minus val.ids minus test.ids) and goes to Drive alongside the
+# corpus text instead, not into git history.
+# ---------------------------------------------------------------------------
+
+# Report LaTeX source: kept locally for recompiling in Overleaf when the
+# report needs an update, but not tracked -- the graded deliverable is the
+# compiled report/phase1_report.pdf, not the source that produced it.
+report/*.tex
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Local machine-specific launcher scripts (hardcoded paths, Task Scheduler wrappers)
+scheduled/
+
+# Local run logs (e.g. background collection/expansion runs) -- not deliverables
+*.log
+
+# Secrets / credentials
+.env
+kaggle.json
+*.key
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Train-split id manifests: large at full corpus scale (Hindi 41.7MB,
+# Assamese 20.5MB) and fully reproducible from the corpus + val/test ids
+# (train = everything not in val.ids or test.ids), so not worth committing.
+*/splits/train.ids
+
+# Flat train-corpus text extracted for tokenizer training (5+ GB each) --
+# the corpus text itself already goes to Drive, and this is regenerable
+# from the corpus + train.ids via common/tokenizer.py's extract step.
+*/tokenizer/train_corpus.txt
+
+# Staged Kaggle upload payload: a copy of code that already lives in this repo,
+# regenerable with `python kaggle/stage_code_payload.py`. Committing it would
+# duplicate every module and let the copy drift from the original.
+kaggle/code_payload/
+
+# Model checkpoints: ~290 MB each, and the spec is explicit that large binary
+# artifacts go to Google Drive with links in the README, never into git. The
+# small companions next to them (config.json, parameter_report.json,
+# train_log.jsonl, loss_curve_*.png) are graded and ARE committed.
+*.pt
+*.pth
+
+# ...but the per-step training log is a graded deliverable ("training logs and
+# loss curves in the repo"), not corpus data. It is a few hundred KB of JSON
+# lines, so exempt it from the blanket *.jsonl rule above.
+!*/model/train_log.jsonl
+# ...and the ablation writes to model_nopos/, which the line above does not
+# match. This blanket *.jsonl rule has now silently swallowed three separate
+# graded logs (Phase 2 pretraining, Phase 3 finetuning, this one), so match the
+# filename wherever it lives rather than adding a fourth directory-specific
+# exception later.
+!**/train_log.jsonl
+# Same story for finetuning logs, which now exist in two places: the Phase 3
+# runs and the per-size data-size ablation. Match the filename wherever it
+# lives, for the same reason as the line above.
+!**/finetune_log.jsonl
+
+# Phase 3 reasoning data. val/test are small and graded -- they are the sets the
+# accuracy numbers come from, so they are committed (see the negation below).
+# The 19 MB train split is not: it is regenerable byte-for-byte from a fixed
+# seed with `python -m common.reasoning.generate --lang <lang>`, exactly as
+# Phase 1 treated train.ids.
+*/train/reasoning_train.jsonl
+!*/train/reasoning_val.jsonl
+!*/train/reasoning_test.jsonl
+!*/train/reasoning_test_unseen.jsonl
+
+# The finetuning log is a graded Phase 3 deliverable ("Finetuning logs, metrics,
+# qualitative examples"), and the blanket *.jsonl rule above would swallow it --
+# the same way it nearly swallowed */model/train_log.jsonl in Phase 2. Negation
+# rules match exact filenames, so this needs its own line.
+!*/train/finetuned/finetune_log.jsonl

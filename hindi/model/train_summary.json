@@ -1,0 +1,7 @@
+{
+  "steps": 6000,
+  "best_val_loss": 3.9723623991012573,
+  "best_val_ppl": 53.10984941567517,
+  "total_minutes": 290.4,
+  "tokens_seen": 589824000
+}
